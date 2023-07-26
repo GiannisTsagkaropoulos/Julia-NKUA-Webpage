@@ -23,7 +23,8 @@ module.exports = {
         'julia-purple': {
           light: '#9259a3',
           dark: '#6b4178',
-        }
+        },
+        'dark-mode': '#1f1f1f'
       },
     },
   },
