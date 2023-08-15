@@ -1,3 +1,9 @@
+import classes from "./PageBackground.module.css";
+
 export default function GettingStartedPage() {
-  return <h1 className="">Getting started</h1>;
+  return (
+    <section className={classes.pink}>
+      <h1 className="">Getting started</h1>
+    </section>
+  );
 }

@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/download-guide": "pages/download-guide.js",
+  "/getting-started": "pages/getting-started.js",
   "/our-work": "pages/our-work.js"
 }

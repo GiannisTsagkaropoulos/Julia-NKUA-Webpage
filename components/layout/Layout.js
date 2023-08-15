@@ -6,7 +6,7 @@ function Layout(props) {
   return (
     <Fragment>
       <MainNavigation />
-      <main>{props.children}</main>
+      <main className="mx-auto w-90 max-w-40 mb-24">{props.children}</main>
     </Fragment>
   );
 }
