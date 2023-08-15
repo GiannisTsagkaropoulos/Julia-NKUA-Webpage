@@ -41,24 +41,44 @@ export const NOTEBOOKS = [
     // },
   },
   {
+    id: "notebook4",
+    title: "Decimal to b-ary conversion",
+    link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/DecimalToBary.html",
+    thumbnail:
+      "images/notebook_photos/thumbnails/decimal_to_b_ary/decimal-to-b-ary-thumbnail.png",
+    content:
+      "Mathmetical background of decimal to b-ary integer & fractional conversion with the result being saves in 24-bit fixed point format.",
+    createdDate: "2021-05-12",
+    tags: [
+      {
+        id: "tag1",
+        title: "Arithmetical Analysis",
+        color: "bg-julia-blue-light",
+        hover: "hover:bg-julia-blue-dark",
+      },
+      {
+        id: "tag2",
+        title: "Interactive",
+        color: "bg-julia-green-light",
+        hover: "hover:bg-julia-green-dark",
+      },
+      {
+        id: "tag3",
+        title: "Computer Arithmetic",
+        color: "bg-julia-blue-light",
+        hover: "hover:bg-julia-blue-dark",
+      },
+    ],
+    author: TEAM_MEMBERS.find((member) => member.id === "giannis"),
+  },
+  {
     id: "notebook2",
     title: "Binary Saving Formats",
     link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/BinarySavingFormats.html",
     thumbnail:
       "images/notebook_photos/thumbnails/binary_saving_formats/binary-saving-formats-thumbnail.png",
-    content: (
-      <div>
-        <p className="tracking-wider text-justify text-gray-600 text-xl hover:cursor-text">
-          Introduces decimal to binary conversion & the following saving
-          formats:
-        </p>
-        <ul className="text-xl px-6 list-disc text-gray-600">
-          <li>Fixed-point 24-bits</li>
-          <li>IEEE 754 32-bits</li>
-          <li>IEEE 754 64-bits</li>
-        </ul>
-      </div>
-    ),
+    content:
+      " Introduces decimal to binary conversion & the following saving formats: Fixed-point 24-bits, IEEE 754 32-bits, IEEE 754 64-bits",
     createdDate: "2021-05-12",
     tags: [
       {
@@ -88,15 +108,8 @@ export const NOTEBOOKS = [
     link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/PolynomialInterpolation.html",
     thumbnail:
       "images/notebook_photos/thumbnails/polynomial_interpolation/interpolation-polynomials.png",
-    content: (
-      <div>
-        <p class="tracking-wider text-justify text-gray-600 text-xl hover:cursor-text">
-          Mathematical theory of Interpolation Polynomials & interactive
-          interpolation of given functions with Lagrange's and Newton's
-          interpolations methods.
-        </p>
-      </div>
-    ),
+    content:
+      "Mathematical theory of Interpolation Polynomials & interactive interpolation of given functions with Lagrange's and Newton's interpolations methods.",
     createdDate: "2021-05-12",
     tags: [
       {
@@ -120,58 +133,15 @@ export const NOTEBOOKS = [
     ],
     author: TEAM_MEMBERS.find((member) => member.id === "giannis"),
   },
-  {
-    id: "notebook4",
-    title: "Decimal to b-ary conversion",
-    link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/DecimalToBary.html",
-    thumbnail:
-      "images/notebook_photos/thumbnails/decimal_to_b_ary/decimal-to-b-ary-thumbnail.png",
-    content: (
-      <div>
-        <p class="tracking-wider text-justify text-gray-600 text-xl hover:cursor-text m-auto">
-          Mathmetical background of decimal to b-ary integer & fractional
-          conversion with the result being saves in 24-bit fixed point format.
-        </p>
-      </div>
-    ),
-    createdDate: "2021-05-12",
-    tags: [
-      {
-        id: "tag1",
-        title: "Arithmetical Analysis",
-        color: "bg-julia-blue-light",
-        hover: "hover:bg-julia-blue-dark",
-      },
-      {
-        id: "tag2",
-        title: "Interactive",
-        color: "bg-julia-green-light",
-        hover: "hover:bg-julia-green-dark",
-      },
-      {
-        id: "tag3",
-        title: "Computer Arithmetic",
-        color: "bg-julia-blue-light",
-        hover: "hover:bg-julia-blue-dark",
-      },
-    ],
-    author: TEAM_MEMBERS.find((member) => member.id === "giannis"),
-  },
+
   {
     id: "notebook5",
     title: "Natural Cubic Spline",
     link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/NaturalCubicSpline.html",
     thumbnail:
       "images/notebook_photos/thumbnails/natural_cubic_spline/natural-cubic-spline-thumbnail-white.png",
-    content: (
-      <div>
-        <p class="tracking-wider text-justify text-gray-600 text-xl hover:cursor-text">
-          Brief introduction to natural cubic splines, algebra behind their
-          construction & interactive interpolation of given functions using
-          natural cubic splines.{" "}
-        </p>
-      </div>
-    ),
+    content:
+      "Brief introduction to natural cubic splines, algebra behind their construction & interactive interpolation of given functions using natural cubic splines.",
     createdDate: "2021-05-12",
     tags: [
       {

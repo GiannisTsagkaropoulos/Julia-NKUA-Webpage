@@ -1,0 +1,142 @@
+.btn {
+  outline: none;
+  color: #fff;
+  border: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+}
+
+.content {
+  text-align: center;
+}
+/* .content:hover {
+  
+  animation: wiggle 2s;
+} */
+
+/* .btn {
+  animation: wiggle 3s 10s infinite;
+  font-size: medium;
+} */
+
+.btn {
+  animation: wiggle1 30s infinite;
+  animation-delay: 8s;
+}
+
+.btn:hover {
+  animation: wiggle2 3s;
+}
+
+.btn::before {
+  position: absolute;
+  content: "";
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    60deg,
+    /* #ff2400,
+    #e81d1d,
+    #e8b71d,
+    #e3e81d,
+    #1de840,
+    #1ddde8,
+    #2b1de8,
+    #dd00f3,
+    #dd00f3 */
+      #c93c32,
+    #8a2d2d,
+    #9259a3,
+    #6b4178,
+    #4e64ae,
+    #3e5294,
+    #399746,
+    #2a7b35
+  );
+  background-size: 300%;
+  z-index: -1;
+  filter: blur(0.5px);
+  animation: move 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.btn:hover::before {
+  opacity: 1;
+  border-radius: 9px;
+}
+
+.btn::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #3e5294;
+  left: 0;
+  top: 0;
+  border-radius: 9px;
+}
+
+@keyframes wiggle1 {
+  0.5%,
+  5% {
+    transform: scale(1);
+  }
+  1% {
+    transform: scale(0.9);
+  }
+  1.5% {
+    transform: scale(1.15);
+  }
+  2% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+  2.5% {
+    transform: scale(1.15) rotate(5deg);
+  }
+  3% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+  3.5% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  4% {
+    transform: scale(1.15) rotate(0);
+  }
+}
+
+@keyframes wiggle2 {
+  5%,
+  50% {
+    transform: scale(1); /* Initial and mid-state: normal size */
+  }
+  10% {
+    transform: scale(0.9); /* Slightly smaller */
+  }
+  15% {
+    transform: scale(1.15); /* Slightly larger */
+  }
+  20% {
+    transform: scale(1.15) rotate(-5deg); /* Larger with a slight counter-clockwise rotation */
+  }
+  25% {
+    transform: scale(1.15) rotate(5deg); /* Larger with a slight clockwise rotation */
+  }
+  30% {
+    transform: scale(1.15) rotate(-3deg); /* Larger with a slight counter-clockwise rotation */
+  }
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}

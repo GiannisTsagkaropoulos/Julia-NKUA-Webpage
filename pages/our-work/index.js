@@ -1,15 +1,16 @@
 import CardGrid from "@/components/notebooks/CardGrid";
-// import Card from "@/components/notebooks/Card";
+import { NOTEBOOKS } from "@/data/pluto-notebooks";
 
 export default function OurWork() {
   return (
     <CardGrid
-    //   title={notebook.title}
-    //   link={notebook.link}
-    //   thumbnail={notebook.thumbnail}
-    //   content={notebook.content}
-    //   tags={notebook.tags}
-    //   author={notebook.author}
+      notebooks={NOTEBOOKS}
+      //   title={notebook.title}
+      //   link={notebook.link}
+      //   thumbnail={notebook.thumbnail}
+      //   content={notebook.content}
+      //   tags={notebook.tags}
+      //   author={notebook.author}
     />
   );
 }

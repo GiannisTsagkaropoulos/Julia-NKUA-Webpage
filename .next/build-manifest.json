@@ -22,10 +22,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/our-work": [
+    "/download-guide": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/our-work.js"
+      "static/chunks/pages/download-guide.js"
     ]
   },
   "ampFirstPages": []

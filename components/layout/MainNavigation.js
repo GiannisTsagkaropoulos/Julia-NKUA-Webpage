@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
+import ContactButton from "../contact-button/ContactButton";
+
+import classes from "../contact-button/Button.module.css";
 
 function MainNavigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,19 +17,17 @@ function MainNavigation() {
       <Logo />
       <nav className="hidden md:block">
         <ul className="list-none m-0 p-0 flex items-baseline">
-          <li className="ml-12">
+          <li className="ml-12 text-white text-xl hover:scale-110">
             <Link href="/download-guide">Download</Link>
           </li>
-          <li className="ml-12">
+          <li className="ml-12 text-white text-xl hover:scale-110">
             <Link href="/getting-started">Getting Started</Link>
           </li>
-          <li className="ml-12">
+          <li className="ml-12 text-white text-xl hover:scale-110">
             <Link href="/our-work">Our Work</Link>
           </li>
           <li className="ml-12">
-            <button className="border border-white rounded-full font-bold px-8 py-2">
-              Contact
-            </button>
+            <ContactButton />
           </li>
         </ul>
       </nav>
@@ -62,9 +63,10 @@ function MainNavigation() {
               <Link href="/our-work">Our Work</Link>
             </li>
             <li>
-              <button className="block mx-auto border border-white rounded-full font-bold px-8 py-2 mt-4">
+              {/* <button className="block mx-auto border border-white rounded-full font-bold px-8 py-2 mt-4">
                 Contact
-              </button>
+              </button> */}
+              <SubmitButton />
             </li>
           </ul>
         </nav>
