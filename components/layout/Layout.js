@@ -4,10 +4,10 @@ import { Fragment } from "react";
 
 function Layout(props) {
   return (
-    <Fragment>
+    <div>
       <MainNavigation />
-      <main className="mx-auto w-90 max-w-40 mb-24">{props.children}</main>
-    </Fragment>
+      <main className="mx-auto w-90 max-w-40">{props.children}</main>
+    </div>
   );
 }
 

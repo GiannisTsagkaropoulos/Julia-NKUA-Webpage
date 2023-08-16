@@ -2,14 +2,18 @@ import classes from "./PageBackground.module.css";
 
 export default function DownloadGuidePage() {
   return (
-    <section className={classes.gradient}>
-      <h2>Julia programming</h2>
-      <h3>A fresh approach to scientific computing</h3>
-      <p>
-        Pluto is an environment to work with the{" "}
-        <a href="https://julialang.org/">Julia programming language</a>. Easy to
-        use like Python, fast like C. <em>(We think it's the future!)</em>
+    <div className="grid list-none grid-cols-1 gap-10 place-items-center bg-blue-100 mx-auto z-1 w-5/6">
+      <h2 className="text-gray-500 text-4xl font-semibold">
+        Julia programming
+      </h2>
+      <h3 className="text-gray-800 text-5xl font-extrabold">
+        A fresh approach to <br />
+        scientific computing
+      </h3>
+      <p className="text-gray-500 text-2xl font-semibold">
+        Easy to use like Python, fast like C.{" "}
+        <em>(We think it's the future!)</em>
       </p>
-    </section>
+    </div>
   );
 }

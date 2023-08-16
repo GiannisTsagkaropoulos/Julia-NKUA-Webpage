@@ -3,17 +3,20 @@ import { NOTEBOOKS } from "@/data/pluto-notebooks";
 
 export default function OurWork() {
   return (
-    <CardGrid
-      notebooks={NOTEBOOKS}
-      //   title={notebook.title}
-      //   link={notebook.link}
-      //   thumbnail={notebook.thumbnail}
-      //   content={notebook.content}
-      //   tags={notebook.tags}
-      //   author={notebook.author}
-    />
+    <div>
+      <CardGrid
+        notebooks={NOTEBOOKS}
+        //   title={notebook.title}
+        //   link={notebook.link}
+        //   thumbnail={notebook.thumbnail}
+        //   content={notebook.content}
+        //   tags={notebook.tags}
+        //   author={notebook.author}
+      />
+    </div>
   );
 }
+
 // const notebook = {
 //   id: "notebook1",
 //   title: "Binary Rationals",

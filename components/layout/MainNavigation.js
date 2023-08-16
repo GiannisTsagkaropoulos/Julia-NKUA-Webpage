@@ -14,9 +14,11 @@ function MainNavigation() {
 
   // bg-julia-blue-dark px-10">
   return (
-    <header className=" fixed w-full h-20 flex items-center justify-between bg-transparent py-16 px-32 mb-24">
-      <Logo />
-      <nav className="hidden md:block">
+    <header className="fixed w-full h-26 flex order-1 items-center justify-between bg-julia-blue-dark opacity-[98%] px-10 xl:px-32 z-50">
+      <Link href="/">
+        <Logo />
+      </Link>
+      <nav className="hidden lg:block">
         <ul className="list-none m-0 p-0 flex items-baseline ">
           <li className="ml-12 text-white text-xl hover:scale-110 font-extrabold">
             <Link href="/getting-started">Getting Started</Link>
@@ -32,7 +34,7 @@ function MainNavigation() {
           </li>
         </ul>
       </nav>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <button onClick={toggleMenu} className="text-white focus:outline-none">
           <svg
             className="w-6 h-6"
@@ -52,7 +54,7 @@ function MainNavigation() {
         </button>
       </div>
       {isMenuOpen && (
-        <nav className="md:hidden absolute top-20 left-0 w-full bg-julia-blue-dark">
+        <nav className="lg:hidden absolute top-[6.5rem] left-0 w-full bg-julia-blue-dark h-screen z-50">
           <ul className="list-none m-0 p-0 py-4 text-center">
             <li>
               <Link href="/download-guide">Download</Link>
@@ -64,10 +66,7 @@ function MainNavigation() {
               <Link href="/our-work">Our Work</Link>
             </li>
             <li>
-              {/* <button className="block mx-auto border border-white rounded-full font-bold px-8 py-2 mt-4">
-                Contact
-              </button> */}
-              <SubmitButton />
+              <ContactButton />
             </li>
           </ul>
         </nav>
@@ -75,5 +74,4 @@ function MainNavigation() {
     </header>
   );
 }
-
 export default MainNavigation;
