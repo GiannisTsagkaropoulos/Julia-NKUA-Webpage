@@ -1,3 +1,5 @@
+import TriStateToggle from "@/components/TriStateToggle";
+
 export default function GettingStartedPage() {
   return (
     <div>
@@ -7,6 +9,7 @@ export default function GettingStartedPage() {
         </h2>
         <p className="text-lg font-normal mt-20">Your text here</p>
       </div>
+      <TriStateToggle />
     </div>
   );
 }

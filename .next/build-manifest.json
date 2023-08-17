@@ -26,11 +26,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/download-guide.js"
-    ],
-    "/getting-started": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/getting-started.js"
     ]
   },
   "ampFirstPages": []
