@@ -1,31 +1,31 @@
-import { ReactMarkdown } from "react-markdown";
 import TriStateToggle from "@/components/TriStateToggle";
 import React, { Fragment, useState } from "react";
-// import path from "path";
 
-const osToMarkdownFile = {
-  MacOS: "/content/Julia-installation-guide/MacOS.md",
-  Windows: "/content/Julia-installation-guide/Windows.md",
-  Linux: "/content/Julia-installation-guide/Linux.md",
-};
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import { useEffect } from "react";
+
+import { getDownloadGuidePosts } from "@/lib/mdUtils";
+
 export default function DownloadGuidePage(props) {
+  const allGuides = props.guides;
+
   const [currentOS, setCurrentOS] = useState("MacOS");
+
+  const correspondingGuide = allGuides.find(
+    (obj) => obj.id === "MacOS" //currentOS.toString()
+  );
+  const [currentDownloadGuide, setCurrentDownloadGuide] =
+    useState(correspondingGuide);
 
   function toggleSwitch(event) {
     const clickedOS = event.target.id;
     setCurrentOS(clickedOS);
+    const correspondingGuide = allGuides.find(
+      (guide) => guide.id === clickedOS
+    );
+    setCurrentDownloadGuide(correspondingGuide);
   }
-  //   const markdownFilePath = osToMarkdownFile[currentOS];
-  //   console.log(markdownFilePath);
-  //   const postsDirectory = path.join(
-  //     process.cwd(),
-  //     "content",
-  //     "julia-download-guide",
-  //     markdownFilePath
-  //   );
-  //   const file = await getPostData(currentOS);
-  const markdownFilePath = osToMarkdownFile[currentOS];
-  console.log(markdownFilePath);
 
   return (
     <Fragment>
@@ -43,9 +43,21 @@ export default function DownloadGuidePage(props) {
         </p>
       </div>
       <TriStateToggle onClick={toggleSwitch} />
-      {currentOS === "MacOS" && <p>Maccc</p>}
+      <ReactMarkdown>{currentDownloadGuide.content}</ReactMarkdown>
+      {/* {currentOS === "MacOS" && (<ReactMarkdown>{foundObject.content}</ReactMarkdown>)}
       {currentOS === "Windows" && <p>Windows</p>}
-      {currentOS === "Linux" && <p>Linux</p>}
+      {currentOS === "Linux" && <p>Linux</p>} */}
     </Fragment>
   );
+}
+
+export async function getStaticProps() {
+  const allGuidePosts = await getDownloadGuidePosts();
+  console.log(allGuidePosts);
+
+  return {
+    props: {
+      guides: allGuidePosts,
+    },
+  };
 }
