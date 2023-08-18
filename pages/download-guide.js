@@ -12,9 +12,7 @@ export default function DownloadGuidePage(props) {
 
   const [currentOS, setCurrentOS] = useState("MacOS");
 
-  const correspondingGuide = allGuides.find(
-    (obj) => obj.id === "MacOS" //currentOS.toString()
-  );
+  const correspondingGuide = allGuides.find((obj) => obj.id === currentOS);
   const [currentDownloadGuide, setCurrentDownloadGuide] =
     useState(correspondingGuide);
 
@@ -42,11 +40,13 @@ export default function DownloadGuidePage(props) {
           (yet!)
         </p>
       </div>
+      <p>
+        Julia Language Installation Depending on the device you are using,
+        download the appropriate one version of Julia from page installations
+        https://julialang.org/downloads/ on the official site.
+      </p>
       <TriStateToggle onClick={toggleSwitch} />
       <ReactMarkdown>{currentDownloadGuide.content}</ReactMarkdown>
-      {/* {currentOS === "MacOS" && (<ReactMarkdown>{foundObject.content}</ReactMarkdown>)}
-      {currentOS === "Windows" && <p>Windows</p>}
-      {currentOS === "Linux" && <p>Linux</p>} */}
     </Fragment>
   );
 }

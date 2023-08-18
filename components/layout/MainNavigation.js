@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
-import ContactButton from "../contact-button/ContactButton";
-
-import classes from "../contact-button/Button.module.css";
+import ContactButton from "../contact/contact-button-navbar/ContactButton";
 
 function MainNavigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +28,9 @@ function MainNavigation() {
             <Link href="/our-work">Our Work</Link>
           </li>
           <li className="ml-12">
-            <ContactButton />
+            <Link href="/contact">
+              <ContactButton />
+            </Link>
           </li>
         </ul>
       </nav>
@@ -66,7 +66,9 @@ function MainNavigation() {
               <Link href="/our-work">Our Work</Link>
             </li>
             <li>
-              <ContactButton />
+              <Link href="/contact">
+                <ContactButton />
+              </Link>
             </li>
           </ul>
         </nav>
