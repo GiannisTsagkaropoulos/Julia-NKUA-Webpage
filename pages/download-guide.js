@@ -4,12 +4,14 @@ import React, { Fragment, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useEffect } from "react";
+import { motion, useScroll } from "framer-motion";
 
 import { getDownloadGuidePosts } from "@/lib/mdUtils";
 
 export default function DownloadGuidePage(props) {
   const allGuides = props.guides;
 
+  const { scrollYProgress } = useScroll();
   const [currentOS, setCurrentOS] = useState("MacOS");
 
   const correspondingGuide = allGuides.find((obj) => obj.id === currentOS);
@@ -27,6 +29,12 @@ export default function DownloadGuidePage(props) {
 
   return (
     <Fragment>
+      <>
+        <motion.div
+          className="fixed top-0 left-0 right-0 h-10 bg-red-500 transform overflow-scroll origin-left"
+          style={{ scaleX: scrollYProgress }}
+        />
+      </>
       <div className="grid list-none grid-cols-1 gap-10 place-items-center bg-blue-100 mx-auto z-1 w-5/6">
         <h2 className="text-gray-500 text-4xl font-semibold">
           Julia programming
@@ -53,7 +61,6 @@ export default function DownloadGuidePage(props) {
 
 export async function getStaticProps() {
   const allGuidePosts = await getDownloadGuidePosts();
-  console.log(allGuidePosts);
 
   return {
     props: {

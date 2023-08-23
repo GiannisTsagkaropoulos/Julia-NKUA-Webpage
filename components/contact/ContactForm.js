@@ -102,6 +102,7 @@ const ContactForm = () => {
       </div>
       <div>
         <textarea
+          rows="5"
           id="message"
           className="bg-transparent border-2 border-julia-blue-light text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
           placeholder="Message"
@@ -111,7 +112,7 @@ const ContactForm = () => {
         {errors.message && <p className="error">{errors.message}</p>}
       </div>
 
-      <button className="mx-auto bg-julia-blue-dark opacity-80 px-8 py-2 my-2 rounded-lg text-white font-bold">
+      <button className="mx-auto bg-julia-blue-light hover:bg-julia-blue-dark opacity-80 px-8 py-2 my-2 rounded-lg text-white font-bold">
         Submit
       </button>
     </form>
