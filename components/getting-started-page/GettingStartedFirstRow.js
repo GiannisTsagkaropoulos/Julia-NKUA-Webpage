@@ -13,6 +13,25 @@ function GettingStartedFirstRow() {
         <div className="h-full">
           <h4 className="text-2xl md:text-3xl text-white font-medium mb-5">
             {" "}
+            <a href="https://nkuamath-julia.github.io/NASCA23/notebooks/julia_guide.html">
+              Julia Team NKUA Interactive Cheatsheet
+            </a>
+          </h4>
+          <p className="text-xl text-justify">
+            Want a quick introduction to Julia in order to write your first
+            programms? Check out the{" "}
+            <a
+              href="https://nkuamath-julia.github.io/NASCA23/notebooks/julia_guide.html"
+              className="text-julia-blue-light hover:text-julia-blue-dark hover:underline"
+            >
+              basic julia knowledge guide
+            </a>{" "}
+            prepared by Julia NKUA Team's member, Anastasia Psitou.
+          </p>
+        </div>
+        <div className="h-full">
+          <h4 className="text-2xl md:text-3xl text-white font-medium mb-5">
+            {" "}
             <a href="https://juliaacademy.com/courses?preview=logged_out">
               Julia Academy
             </a>
@@ -30,25 +49,7 @@ function GettingStartedFirstRow() {
             Julia Computing.
           </p>
         </div>
-        <div className="h-full">
-          <h4 className="text-2xl md:text-3xl text-white font-medium mb-5">
-            {" "}
-            <a href="https://nkuamath-julia.github.io/NASCA23/notebooks/julia_guide.html">
-              Julia Team NKUA Interactive Cheatsheet
-            </a>
-          </h4>
-          <p className="text-xl text-justify">
-            Want a quick introduction to Julia in order to write your first
-            programms? Check out the{" "}
-            <a
-              href="https://nkuamath-julia.github.io/NASCA23/notebooks/julia_guide.html"
-              className="text-julia-blue-light hover:text-julia-blue-dark hover:underline"
-            >
-              basic julia knowledge guide
-            </a>{" "}
-            prepared by Julia NKUA Team's member, Anastasia Psitou.
-          </p>
-        </div>
+
         <div className="h-full">
           <h4 className="text-2xl md:text-3xl text-white font-medium mb-5">
             {" "}

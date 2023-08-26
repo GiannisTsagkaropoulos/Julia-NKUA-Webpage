@@ -7,6 +7,7 @@ import { TUTORIALS } from "@/data/julia-tutorials";
 import Books from "@/components/getting-started-page/Books";
 import BookGrid from "@/components/getting-started-page/BookGrid";
 import { JULIA_BOOKS } from "@/data/julia-books";
+import Classroom from "@/components/getting-started-page/Classroom";
 
 export default function GettingStartedPage() {
   return (
@@ -26,6 +27,9 @@ export default function GettingStartedPage() {
         <Books />
         <div className="h-12"></div>
         <BookGrid books={JULIA_BOOKS} />
+        <div className="h-12"></div>
+        <Classroom />
+        <div className="h-24"></div>
       </section>
     </main>
   );
