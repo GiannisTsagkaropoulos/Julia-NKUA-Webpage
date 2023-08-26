@@ -36,17 +36,10 @@ export default function DownloadGuidePage(props) {
         />
       </>
       <div className="grid list-none grid-cols-1 gap-10 place-items-center bg-blue-100 mx-auto z-1 w-5/6">
-        <h2 className="text-gray-500 text-4xl font-semibold">
-          Julia programming
-        </h2>
-        <h3 className="text-gray-800 text-5xl font-extrabold">
-          A fresh approach to <br />
-          scientific computing
-        </h3>
-        <p className="text-gray-500 text-2xl font-semibold">
+        <h2 className="text-5xl text-gray-700 font-extrabold mx-auto text-center my-4">
           The days of having julia pre-installed in your machine are not here
           (yet!)
-        </p>
+        </h2>
       </div>
       <p>
         Julia Language Installation Depending on the device you are using,

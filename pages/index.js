@@ -25,7 +25,7 @@ export default function HomePage() {
       <section className="h-fit bg-indigo-50 z-1">
         <div className="max-w-7xl text-center grid grid-cols-1 gap-4 place-items-center mx-auto">
           <div className="mt-16 mb-28">
-            <h3 className="text-4xl  text-julia-blue-dark opacity-100 tracking-wider font-semibold ">
+            <h3 className="text-4xl  text-julia-blue-dark opacity-100 tracking-widest font-semibold ">
               TRUSTED BY GIANTS
             </h3>
             <h3 className="text-6xl text-gray-700 font-extrabold mt-8">
