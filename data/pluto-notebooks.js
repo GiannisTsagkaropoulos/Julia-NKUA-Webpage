@@ -19,18 +19,26 @@ export const NOTEBOOKS = [
       },
       {
         id: "tag2",
+        title: "Computer Arithmetic",
+        color: "bg-julia-purple-light",
+        hover: "hover:bg-julia-purple-dark",
+      },
+      {
+        id: "tag3",
         title: "Interactive",
         color: "bg-julia-green-light",
         hover: "hover:bg-julia-green-dark",
       },
-      {
-        id: "tag3",
-        title: "Computer Arithmetic",
-        color: "bg-julia-blue-light",
-        hover: "hover:bg-julia-blue-dark",
-      },
     ],
     author: TEAM_MEMBERS.find((member) => member.id === "giannis"),
+    // author: {
+    //   id: "giannis",
+    //   name: "Giannis Tsagkaropoulos",
+    //   socialLink:
+    //     "https://www.linkedin.com/in/ioannis-tsagkaropoulos-85a280233/",
+    //   image: "images/faces/giannis.jpg",
+    //   status: "Math Undergraduate",
+    // },
   },
   {
     id: "notebook4",
@@ -39,7 +47,7 @@ export const NOTEBOOKS = [
     thumbnail:
       "images/notebook_photos/thumbnails/decimal_to_b_ary/decimal-to-b-ary-thumbnail.png",
     content:
-      "Mathmetical background of decimal to b-ary integer & fractional conversion with the result being saves in 24-bit fixed point format.",
+      "Mathematical background of decimal to b-ary integer & fractional conversion with the result being saves in 24-bit fixed point format.",
     createdDate: "2021-05-12",
     tags: [
       {
@@ -50,15 +58,15 @@ export const NOTEBOOKS = [
       },
       {
         id: "tag2",
-        title: "Interactive",
-        color: "bg-julia-green-light",
-        hover: "hover:bg-julia-green-dark",
+        title: "Computer Arithmetic",
+        color: "bg-julia-purple-light",
+        hover: "hover:bg-julia-purple-dark",
       },
       {
         id: "tag3",
-        title: "Computer Arithmetic",
-        color: "bg-julia-blue-light",
-        hover: "hover:bg-julia-blue-dark",
+        title: "Interactive",
+        color: "bg-julia-green-light",
+        hover: "hover:bg-julia-green-dark",
       },
     ],
     author: TEAM_MEMBERS.find((member) => member.id === "giannis"),
@@ -81,15 +89,15 @@ export const NOTEBOOKS = [
       },
       {
         id: "tag2",
-        title: "Interactive",
-        color: "bg-julia-green-light",
-        hover: "hover:bg-julia-green-dark",
+        title: "Computer Arithmetic",
+        color: "bg-julia-purple-light",
+        hover: "hover:bg-julia-purple-dark",
       },
       {
         id: "tag3",
-        title: "Computer Arithmetic",
-        color: "bg-julia-blue-light",
-        hover: "hover:bg-julia-blue-dark",
+        title: "Interactive",
+        color: "bg-julia-green-light",
+        hover: "hover:bg-julia-green-dark",
       },
     ],
     author: TEAM_MEMBERS.find((member) => member.id === "giannis"),
@@ -112,15 +120,15 @@ export const NOTEBOOKS = [
       },
       {
         id: "tag2",
-        title: "Interactive",
-        color: "bg-julia-green-light",
-        hover: "hover:bg-julia-green-dark",
+        title: "Intepolation",
+        color: "bg-julia-red-light",
+        hover: "hover:bg-julia-red-dark",
       },
       {
         id: "tag3",
-        title: "Intepolation",
-        color: "bg-julia-blue-light",
-        hover: "hover:bg-julia-blue-dark",
+        title: "Interactive",
+        color: "bg-julia-green-light",
+        hover: "hover:bg-julia-green-dark",
       },
     ],
     author: TEAM_MEMBERS.find((member) => member.id === "giannis"),
@@ -145,8 +153,8 @@ export const NOTEBOOKS = [
       {
         id: "tag2",
         title: "Interpolation",
-        color: "bg-julia-blue-light",
-        hover: "hover:bg-julia-blue-dark",
+        color: "bg-julia-red-light",
+        hover: "hover:bg-julia-red-dark",
       },
       {
         id: "tag3",

@@ -13,7 +13,7 @@ function MainNavigation() {
   // bg-julia-blue-dark opacity-[98%]
   //
   return (
-    <header className="fixed w-full h-28 flex order-1 items-center justify-between bg-julia-blue-dark bg-opacity-70 backdrop-blur-md px-10 xl:px-32 z-50">
+    <header className="fixed w-full h-28 flex order-1 items-center justify-between bg-julia-blue-dark bg-opacity-90 backdrop-blur-md px-10 xl:px-32 z-50">
       <Link href="/">
         <Logo />
       </Link>

@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        xxs: "0.5rem",
+        xxs: "0.6rem",
       },
       colors: {
         "julia-blue": {
