@@ -57,7 +57,7 @@ export default function Card(props) {
           href={props.author.socialLink}
           className="hover:cursor-pointer hover:font-extrabold align"
         >
-          <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 hover:scale-[1.005] hover:-translate-y-[1px] duration-150 mb-2">
+          <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3 mb-2">
             <img
               className="w-20 h-20 justify-self-center  rounded-full object-cover hidden lg:col-span-1 lg:block"
               src={props.author.image}

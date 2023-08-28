@@ -2,15 +2,15 @@ function Books() {
   return (
     <div>
       <div className="w-10/12 grid grid-cols-3 gap-4 place-items-center mx-auto">
-        <div className="w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
-        <h3 className="text-4xl text-julia-blue-light font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
-          Julia Tutorials
+        <div className="w-[100%] h-[0.12rem] bg-julia-red-light flex items-center" />
+        <h3 className="text-5xl text-julia-red-light font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
+          Books
         </h3>
-        <div className="w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
+        <div className="w-[100%] h-[0.12rem] bg-julia-red-light flex items-center" />
       </div>
       <div className="h-8"></div>
 
-      <p className="text-xl w-10/12 mx-auto text-white font-normal">
+      <p className="text-[1.5rem] w-10/12 mx-auto text-white font-normal">
         Interested in getting a Julia book? Check out the{" "}
         <a
           href="https://julialang.org/learning/books/"

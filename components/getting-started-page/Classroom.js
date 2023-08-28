@@ -9,7 +9,7 @@ function Classroom() {
         <div className="w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
       </div>
       <div className="h-8"></div>
-      <p className="text-xl w-10/12 mx-auto text-white font-normal">
+      <p className="text-[1.5rem] w-10/12 mx-auto text-white font-normal">
         Julia is ready for the classroom. We encourage instructors to
         participate in the{" "}
         <a

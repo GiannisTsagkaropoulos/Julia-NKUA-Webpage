@@ -9,25 +9,26 @@ import BookGrid from "@/components/getting-started-page/BookGrid";
 import { JULIA_BOOKS } from "@/data/julia-books";
 import Classroom from "@/components/getting-started-page/Classroom";
 
+//bg-gradient-to-r from-indigo-200 to-indigo-300"
 export default function GettingStartedPage() {
   return (
     <main className="z-1">
-      <section className="h-fit bg-gradient-to-r from-indigo-200 to-indigo-300">
+      <section className="h-fit bg-[#b0badf]">
         <div className="h-12"></div>
         <JuliaSentences />
         <div className="h-12"></div>
         <GettingStartedFirstRow />
-        <div className="h-12"></div>
+        <div className="h-24"></div>
         <Youtube />
-        <div className="h-12"></div>
+        <div className="h-24"></div>
         <JuliaTutorials />
         <div className="h-12"></div>
         <TutorialGrid tutorials={TUTORIALS} />
-        <div className="h-12"></div>
+        <div className="h-24"></div>
         <Books />
         <div className="h-12"></div>
         <BookGrid books={JULIA_BOOKS} />
-        <div className="h-12"></div>
+        <div className="h-24"></div>
         <Classroom />
         <div className="h-24"></div>
       </section>

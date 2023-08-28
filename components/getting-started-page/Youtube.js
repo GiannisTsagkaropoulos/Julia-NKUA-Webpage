@@ -1,15 +1,15 @@
 function Youtube() {
   return (
-    <div className="w-10/12 bg-white/90 rounded-md mx-auto mt-12">
+    <div className="w-10/12 bg-julia-blue-light/10 rounded-lg p-8 mx-auto mt-12">
       <div className="w-11/12 grid grid-cols-3 gap-4 place-items-center mx-auto">
         <div className="w-[100%] bg-julia-red-light h-[0.12rem] flex items-center" />
-        <h3 className="text-4xl text-julia-red-light font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
+        <h3 className="text-5xl text-julia-red-light font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
           Youtube
         </h3>
         <div className="w-[100%] bg-julia-red-light h-[0.12rem] flex items-center" />
       </div>
       <div className="mx-12 py-5">
-        <p className="text-xl font-normal leading-8 text-gray-700 text-left mb-4">
+        <p className="text-[1.5rem] font-normal leading-8 text-white text-left mb-4 tracking-wide">
           <span className="text-julia-blue-dark">• </span>
           <a
             target="_blank"
@@ -40,7 +40,7 @@ function Youtube() {
           that have accompanying Jupyter Notebooks viewers can follow along
           with.
         </p>
-        <p className="text-xl font-normal leading-8 text-gray-700 text-left mb-4">
+        <p className="text-[1.5rem] font-normal leading-8 text-white text-left mb-4 tracking-wide">
           <span className="text-julia-blue-dark">• </span>
           <a
             target="_blank"
@@ -54,7 +54,7 @@ function Youtube() {
           awaits!
         </p>
 
-        <p className="text-xl font-normal leading-8 text-gray-700 text-left mb-4">
+        <p className="text-[1.5rem] font-normal leading-8 text-white text-left mb-4 tracking-wide">
           <span className="text-julia-blue-dark">• </span>
           <a
             target="_blank"
@@ -66,7 +66,7 @@ function Youtube() {
           is a single place for modeling, simulation, machine learning, user
           built applications & much more with the Julia language.
         </p>
-        <p className="text-xl font-normal leading-8 text-gray-700 text-left">
+        <p className="text-[1.5rem] font-normal leading-8 text-white text-left mb-4 tracking-wide">
           <span className="text-julia-blue-dark">• </span>
           <a
             target="_blank"
