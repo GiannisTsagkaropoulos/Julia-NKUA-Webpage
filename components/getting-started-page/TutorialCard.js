@@ -36,16 +36,16 @@ function TutorialCard(props) {
         </ul>
         <div className="w-11/12 bg-gray-200 h-[0.12rem] mx-auto my-2" />
 
-        <div class="flex items-center justify-between mb-3 mx-4">
-          <div class="flex items-center">
+        <div className="flex items-center justify-between mb-3 mx-4">
+          <div className="flex items-center">
             <img
-              class="w-8 h-8 rounded-full object-cover hidden lg:block"
+              className="w-8 h-8 rounded-full object-cover hidden lg:block"
               src={props.author.image}
               alt={props.author.name}
             />
-            <p class="text-gray-700 text-base ml-3">{props.author.name}</p>
+            <p className="text-gray-700 text-base ml-3">{props.author.name}</p>
           </div>
-          <p class="text-julia-blue-light text-lg font-bold">FREE</p>
+          <p className="text-julia-blue-light text-lg font-bold">FREE</p>
         </div>
       </div>
     </a>

@@ -10,19 +10,20 @@ function MainNavigation() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // bg-julia-blue-dark px-10">
+  // bg-julia-blue-dark opacity-[98%]
+  //
   return (
-    <header className="fixed w-full h-28 flex order-1 items-center justify-between bg-julia-blue-dark opacity-[98%] px-10 xl:px-32 z-50">
+    <header className="fixed w-full h-28 flex order-1 items-center justify-between bg-julia-blue-dark bg-opacity-70 backdrop-blur-md px-10 xl:px-32 z-50">
       <Link href="/">
         <Logo />
       </Link>
       <nav className="hidden lg:block">
         <ul className="list-none m-0 p-0 flex items-baseline ">
           <li className="ml-12 text-white text-xl hover:scale-110 font-extrabold">
-            <Link href="/getting-started">Getting Started</Link>
+            <Link href="/download-guide">Download</Link>
           </li>
           <li className="ml-12 text-white text-xl hover:scale-110 font-extrabold">
-            <Link href="/download-guide">Download</Link>
+            <Link href="/getting-started">Getting Started</Link>
           </li>
           <li className="ml-12 text-white text-xl hover:scale-110 font-extrabold">
             <Link href="/our-work">Our Work</Link>

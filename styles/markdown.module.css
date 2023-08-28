@@ -1,0 +1,113 @@
+.markdown {
+  /* Style the whole container if needed */
+
+  width: 75%;
+  margin: 0 auto;
+}
+
+.markdown h1 {
+  font-size: 3rem;
+  color: #344270; /* Example color #cbb5fe*/
+  font-weight: 700;
+  margin: 1rem 0;
+}
+/* light: "#4e64ae",
+dark: "#3e5294",
+},
+"julia-green": {
+light: "#399746",
+dark: "#2a7b35",
+},
+"julia-red": {
+light: "#c93c32",
+dark: "#8a2d2d",
+},
+"julia-purple": {
+light: "#9259a3",
+dark: "#6b4178",
+},
+"dark-mode": "#1f1f1f", */
+.markdown h2 {
+  font-size: 2.5rem;
+  color: #445693; /* Example color #8968f6*/
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.markdown h3 {
+  font-size: 2rem;
+  color: #576fbc; /* Example color */
+  margin: 1rem 0;
+}
+
+.markdown h4 {
+  font-size: 2rem;
+  color: #768cd6; /* Example color */
+  margin: 1rem 0;
+}
+
+.markdown img {
+  width: 70%;
+  margin: 3rem auto;
+  border-radius: 0.5rem;
+}
+
+.markdown ol {
+  list-style-type: none; /* Remove default numbers */
+  counter-reset: my-counter; /* Reset the counter */
+  padding-left: 2rem; /* Remove default left padding */
+}
+
+/* Style for each list item */
+.markdown li {
+  position: relative;
+}
+
+.markdown li::before {
+  content: counter(my-counter) ".";
+  counter-increment: my-counter; /* Increment the counter */
+  position: absolute;
+  left: -2rem; /* Adjust the left position to control the indent */
+  top: 0.4rem; /* Adjust the left position to control the indent */
+  width: 2rem; /* Width of the number area */
+  text-align: right;
+  font-weight: bold;
+  color: #344270; /* Example color */
+}
+
+.markdown p {
+  font-size: 1.4rem;
+  color: rgb(51 65 85);
+  line-height: 1.5;
+}
+
+.markdown li > p {
+  margin: 0.5rem;
+}
+
+.markdown code {
+  font-family: "Courier New", monospace;
+  background-color: #dce0ee;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.2rem;
+  color: #344270;
+  margin: 1rem auto;
+  /* font-weight: 600; */
+}
+
+.markdown blockquote {
+  border-left: 4px solid #344270;
+  color: #cbb5fe;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+.markdown a {
+  color: #4e64ae; /* Example link color */
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+  color: #3e5294;
+}

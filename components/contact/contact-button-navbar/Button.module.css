@@ -8,6 +8,9 @@
   border-radius: 2rem;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
+  animation: wiggle1 30s infinite;
+  animation-delay: 8s;
+  background-color: #4e64ae;
 }
 
 .content {
@@ -17,16 +20,6 @@
   
   animation: wiggle 2s;
 } */
-
-/* .btn {
-  animation: wiggle 3s 10s infinite;
-  font-size: medium;
-} */
-
-.btn {
-  animation: wiggle1 30s infinite;
-  animation-delay: 8s;
-}
 
 .btn:hover {
   animation: wiggle2 3s;
