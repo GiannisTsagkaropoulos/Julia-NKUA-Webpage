@@ -11,6 +11,12 @@ function PlutoThanks() {
           Pluto.jl
         </a>{" "}
       </h3>
+      <div className="h-6"></div>
+      <p className="text-3xl  text-gray-700 tracking-wider font-semibold text-center w-10/12 mx-auto">
+        The ultimate browser based notebook interface for the Julia language
+        which allows presentation of Julia code & computational results in a
+        tightly linked fashion.
+      </p>
       <div className="h-12"></div>
       <h3 className="text-4xl  text-slate-500 tracking-wider font-semibold text-center">
         Reactivity
@@ -32,8 +38,7 @@ function PlutoThanks() {
       </h3>
       <p className="text-2xl text-julia-blue-light opacity-70 tracking-wider font-medium w-[75%] mx-auto  text-center">
         Pluto goes to great lengths to make sure that someone else will be able
-        to run your notebook when you're done! <br /> The result? A programming
-        environment that prioritizes beginners over advanced users!
+        to run your notebook when you're done!
       </p>
       <div className="h-12"></div>
       <h3 className="text-4xl  text-slate-500 tracking-wider font-semibold text-center">
@@ -43,7 +48,7 @@ function PlutoThanks() {
         A programming environment designed for <em>learning and teaching</em>
       </h3>
       <div className="text-2xl tracking-wider font-medium w-[75%] mx-auto  text-center">
-        <p className="text-julia-blue-light opacity-70">
+        <p className="text-julia-blue-light opacity-70 text-center">
           Crafted with the goal of creating a programming environment that is
           powerful, helpful and interactive, without being too intimidating for
           students and teachers.

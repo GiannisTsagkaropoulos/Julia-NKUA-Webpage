@@ -8,23 +8,23 @@ const NameInput = ({ name, text, isInitial, validation, setName }) => {
   const success = (!isInitial || !nameIsInitial) && isOkay;
 
   return (
-    <div>
+    <div className="relative">
       <input
         type="text"
         name={"name"}
         placeholder={text}
         value={name}
         onChange={(event) => setName(event.target.value)}
-        className={`w-full rounded-md border-2 border-bgDark-300 bg-transparent pt-2 pb-2 pl-2 pr-10 caret-violet-500 selection:bg-violet-400 focus:outline-none dark:caret-orange-400 dark:selection:bg-orange-300 dark:selection:text-bgDark-900 ${
-          failure ? "border-failure-500 " : null
+        className={`w-full rounded-md border-2 border-julia-blue-light/50  bg-transparent pt-2 pb-2 pl-2 pr-10 julia-blue-dark selection:bg-julia-blue-light focus:outline-none ${
+          failure ? "border-julia-red-light " : null
         } 
-      ${success ? "border-success-500" : null} ${
-          !failure && !success
-            ? "focus:border-violet-400 dark:focus:border-bgLight-200"
-            : null
+      ${success ? "border-julia-green-light" : null} ${
+          !failure && !success ? "focus:border-julia-blue-light" : null
         }`}
       />
-      <InputMark success={success} failure={failure} />
+      <div className="absolute top-0 right-0 h-full flex items-center pr-2">
+        <InputMark failure={failure} success={success} />
+      </div>
       <NameFailure
         isEmpty={isEmpty}
         isSmall={isSmall}

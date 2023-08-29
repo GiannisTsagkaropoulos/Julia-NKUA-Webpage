@@ -36,7 +36,6 @@ export const checkName = (name) => {
 export const checkEmail = (email) => {
   var isEmpty = true;
   var containsAt = false;
-  var endsWithDotCom = false;
   var isBig = false;
   var isOkay = false;
 
@@ -51,23 +50,19 @@ export const checkEmail = (email) => {
       containsAt = true;
     }
 
-    if (text.endsWith(".com")) {
-      endsWithDotCom = true;
-    }
-
     if (text.length > 320) {
       isBig = true;
     } else {
       isBig = false;
     }
 
-    if (!isEmpty && containsAt && endsWithDotCom && !isBig) {
+    if (!isEmpty && containsAt && !isBig) {
       isOkay = true;
     } else {
       isOkay = false;
     }
   }
-  return { isEmpty, containsAt, endsWithDotCom, isBig, isOkay };
+  return { isEmpty, containsAt, isBig, isOkay };
 };
 
 export const checkMessage = (message) => {
