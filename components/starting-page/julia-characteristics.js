@@ -1,6 +1,6 @@
 export default function JuliaCharacteristics() {
   return (
-    <div className="grid grid-cols-3 box-border w-10/12 m-auto mb-24">
+    <div className="grid grid-cols-1 lg:grid-cols-3 box-border w-10/12 m-auto mb-24">
       <div className="box-border flex flex-row gap-8 items-start leading-relaxed m-2 p-4 bg-white border-4 border-[#4e64ae92] rounded-lg shadow-md text-justify">
         <div className="basis-4/6 grow shrink flex flex-col">
           <h3 className="text-[#272727] font-bold text-xl mb-4">Fast</h3>

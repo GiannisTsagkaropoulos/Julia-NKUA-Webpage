@@ -8,13 +8,13 @@ export default function HomePage() {
       <section className="h-fit bg-purple-50">
         <div className="max-w-2xl text-center grid grid-cols-1 gap-4 place-items-center mx-auto">
           <div className="mt-16 mb-24">
-            <h3 className="text-4xl  text-julia-blue-dark opacity-100 tracking-wider font-semibold">
+            <h3 className="text-3xl lg:text-4xl  text-julia-blue-dark opacity-100 tracking-wider font-semibold">
               JULIA PROGRAMMING
             </h3>
-            <h3 className="text-6xl text-gray-700 font-extrabold mx-auto text-center my-4">
+            <h3 className="text-4xl lg:text-6xl text-gray-700 font-extrabold mx-auto text-center my-4">
               A fresh approach to scientific computing
             </h3>
-            <h3 className="text-2xl text-julia-blue-light opacity-70 tracking-wider font-medium">
+            <h3 className="text-xl lg:text-2xl text-julia-blue-light opacity-70 tracking-wider font-medium">
               We are greedy: we want more.
             </h3>
           </div>
@@ -25,10 +25,10 @@ export default function HomePage() {
       <section className="h-fit bg-indigo-50 z-1">
         <div className="max-w-7xl text-center grid grid-cols-1 gap-4 place-items-center mx-auto">
           <div className="mt-16 mb-28">
-            <h3 className="text-4xl  text-julia-blue-dark opacity-100 tracking-widest font-semibold ">
+            <h3 className="text-2xl lg:text-4xl  text-julia-blue-dark opacity-100 tracking-widest font-semibold ">
               TRUSTED BY GIANTS
             </h3>
-            <h3 className="text-6xl text-gray-700 font-extrabold mt-8">
+            <h3 className="text-4xl lg:text-6xl text-gray-700 font-extrabold mt-8">
               On a mission to make{" "}
               <span className="text-julia-blue-light opacity-70">
                 scientific computing
@@ -44,7 +44,7 @@ export default function HomePage() {
         <div className="w-11/12 mx-auto">
           <CaseStudyGrid caseStudies={CASE_STUDIES} />
         </div>
-        <div className="flex justify-center my-12">
+        <div className="flex justify-center mt-12">
           <a
             target="_blank"
             href="https://juliahub.com/case-studies/"
@@ -53,6 +53,7 @@ export default function HomePage() {
             See more
           </a>
         </div>
+        <div className="h-12"></div>
       </section>
     </main>
   );

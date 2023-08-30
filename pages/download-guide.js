@@ -67,12 +67,11 @@ export default function DownloadGuidePage(props) {
     <div className="z-1">
       <section className="h-fit bg-[#ecf0fd]">
         <div className="h-12"></div>
-        <h2 className="text-5xl text-julia-blue-dark font-extrabold mx-auto text-center my-4 tracking-wide w-10/12">
+        <h2 className="text-3xl lg:text-5xl text-julia-blue-dark font-extrabold mx-auto text-center my-4 tracking-wide w-10/12">
           The days of having julia pre-installed in your machine are not here
           (yet!)
         </h2>
         <div className="h-8"></div>
-
         <TriStateToggle onClick={toggleSwitch} />
         <div className="h-8"></div>
         <ReactMarkdown components={customContent} className={classes.markdown}>

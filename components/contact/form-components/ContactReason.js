@@ -3,14 +3,14 @@ const ContactReason = ({ reason, setReason }) => {
     <div className="flex items-center ">
       <label
         htmlFor="contact-reason"
-        className="text-xl tracking-wide text-slate-800 font-medium mr-4"
+        className="text-base lg:text-xl tracking-wide text-slate-800 font-medium mr-4"
       >
         Reason for contacting:{" "}
       </label>
       <select
         name="contact-reason"
         onChange={(e) => setReason(e.target.value)}
-        className=" rounded-md border-2 border-julia-blue-light/50 bg-transparent py-10 pl-2 pr-10 julia-blue-dark selection:bg-julia-blue-light focus:outline-none text-gray-900 text-lg  focus:border-julia-blue-light"
+        className=" rounded-md border-2 border-julia-blue-light/50 bg-transparent py-3 pl-2 pr-10 julia-blue-dark selection:bg-julia-blue-light focus:outline-none text-gray-900 text-xs lg:text-lg  focus:border-julia-blue-light"
       >
         <option value="bug" defaultValue>
           Bug

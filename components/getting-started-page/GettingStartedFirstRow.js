@@ -1,23 +1,23 @@
 function GettingStartedFirstRow() {
   return (
     <section>
-      <div className="w-10/12 grid grid-cols-3 gap-4 place-items-center mx-auto">
-        <div className="w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
-        <h3 className="text-[2.7rem] text-julia-blue-dark font-bold mx-auto text-center my-4 tracking-wide col-span-1">
+      <div className="grid grid-cols-3 gap-4 place-items-center mx-auto w-10/12">
+        <div className="w-[60%] lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
+        <h3 className="text-2xl xl:text-[2.7rem] text-julia-blue-dark font-semibold lg:font-bold mx-auto text-center my-4 tracking-wide col-span-1">
           Get Started with Julia
         </h3>
-        <div className="w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
+        <div className="w-[60%] lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
       </div>
       <div className="h-10"></div>
-      <div className="lg:w-10/12 w-11/12 grid grid-cols-2 gap-10 place-items-center mx-auto">
+      <div className="lg:w-10/12 w-10/12 grid grid-cols-1 lg:grid-cols-2 gap-10 place-items-center mx-auto">
         <div className="h-full">
-          <h4 className="text-2xl md:text-4xl text-julia-blue-light font-medium mb-5 hover:underline">
+          <h4 className="text-2xl lg:text-3xl xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
             {" "}
             <a href="https://nkuamath-julia.github.io/NASCA23/notebooks/julia_guide.html">
               Julia Team NKUA Interactive Cheatsheet
             </a>
           </h4>
-          <p className="text-[1.5rem] text-justify text-white">
+          <p className="text-xl 2xl:text-[1.5rem] text-justify text-white">
             Want a quick introduction to Julia in order to write your first
             programms? Check out the{" "}
             <a
@@ -30,13 +30,13 @@ function GettingStartedFirstRow() {
           </p>
         </div>
         <div className="h-full">
-          <h4 className="text-2xl md:text-4xl text-julia-blue-light font-medium mb-5">
+          <h4 className="text-2xl lg:text-3xl xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
             {" "}
             <a href="https://juliaacademy.com/courses?preview=logged_out">
               Julia Academy
             </a>
           </h4>
-          <p className="text-[1.5rem] text-justify text-white">
+          <p className="text-xl lg:text-[1.3rem] text-justify text-white">
             Do you learn best by watching instructor led videos on programming?
             Check out{" "}
             <a
@@ -51,11 +51,11 @@ function GettingStartedFirstRow() {
         </div>
 
         <div className="h-full">
-          <h4 className="text-2xl md:text-4xl text-julia-blue-light font-medium mb-5">
+          <h4 className="text-2xl lg:text-3xl xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
             {" "}
             <a href="https://exercism.org/tracks/julia">Exercism Julia Track</a>
           </h4>
-          <p className="text-[1.5rem] text-justify text-white">
+          <p className="text-xl lg:text-[1.3rem] text-justify text-white">
             Prefer to learn by doing exercises and getting feedback from a team
             of welcoming mentors? Check out the Julia Track on{" "}
             <a
@@ -68,12 +68,12 @@ function GettingStartedFirstRow() {
           </p>
         </div>
         <div className="h-full">
-          <h4 className="text-2xl md:text-4xl text-julia-blue-light font-medium mb-5">
+          <h4 className="text-2xl lg:text-3xl xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
             <a href="https://docs.julialang.org/en/v1/manual/getting-started/">
               The Manual{" "}
             </a>
           </h4>
-          <p className="text-[1.5rem] text-justify text-white">
+          <p className="text-xl lg:text-[1.3rem] text-justify text-white">
             Want to just give it a shot and dive right into the Julia
             documentation? Check out the{" "}
             <a

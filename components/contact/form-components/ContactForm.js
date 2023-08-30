@@ -14,7 +14,7 @@ import {
 } from "../../../functions/FormValidation";
 import { fetchData } from "../../../functions/FetchData";
 
-const Contact = forwardRef((props, ref) => {
+const ContactForm = forwardRef((props, ref) => {
   const [name, setName] = useState("");
   const [nameIsInitial, setNameIsInitial] = useState(true);
   const [nameValidation, setNameValidation] = useState({
@@ -136,7 +136,9 @@ const Contact = forwardRef((props, ref) => {
           acceptCharset="UTF-8"
           className="flex w-full flex-col"
         >
-          <h1 className="mb-5 pt-16 text-3xl font-bold text-white">Contact </h1>
+          <h1 className="mb-5 pt-16 text-2xl lg:text-3xl font-bold text-white">
+            Contact{" "}
+          </h1>
           <div className="flex flex-col gap-4">
             <NameInput
               name={name}
@@ -178,7 +180,7 @@ const Contact = forwardRef((props, ref) => {
   );
 });
 
-export default Contact;
+export default ContactForm;
 
 // // Debugging
 // console.log("name: ", nameRef.current.value);

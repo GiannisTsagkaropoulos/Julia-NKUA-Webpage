@@ -3,13 +3,13 @@ function Classroom() {
     <div>
       <div className="w-10/12 grid grid-cols-3 gap-4 place-items-center mx-auto">
         <div className="w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
-        <h3 className="text-4xl text-julia-blue-light font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
-          Julia Tutorials
+        <h3 className="text-3xl lg:text-4xl text-julia-blue-light font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
+          In the Classroom
         </h3>
         <div className="w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
       </div>
       <div className="h-8"></div>
-      <p className="text-[1.5rem] w-10/12 mx-auto text-white font-normal">
+      <p className="text-lg lg:text-[1.3rem] w-10/12 mx-auto text-white font-normal text-justify">
         Julia is ready for the classroom. We encourage instructors to
         participate in the{" "}
         <a

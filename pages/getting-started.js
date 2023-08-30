@@ -18,7 +18,7 @@ export default function GettingStartedPage() {
         <JuliaSentences />
         <div className="h-12"></div>
         <GettingStartedFirstRow />
-        <div className="h-24"></div>
+        <div className="lg:h-24"></div>
         <Youtube />
         <div className="h-24"></div>
         <JuliaTutorials />

@@ -8,7 +8,7 @@ export default function OurWork() {
       <section className="h-fit bg-purple-50">
         <div className="w-10/12 mx-auto flex flex-col items-center">
           <div className="h-12"></div>
-          <h3 className="text-4xl w-7/12 mx-auto tracking-wider font-medium text-center">
+          <h3 className="w-11/12 text-xl lg:text-4xl lg:w-7/12 mx-auto tracking-wider font-medium text-justify lg:text-center ">
             <span className="text-julia-blue-light opacity-70">
               Crafted for accessibility and engagement,{" "}
             </span>
@@ -19,7 +19,7 @@ export default function OurWork() {
             </span>
           </h3>
           <div className="h-12"></div>
-          <p className="text-slate-600 text-2xl font-medium w-2/5 mx-auto text-justify">
+          <p className="w-10/12 text-lg lg:text-2xl font-medium lg:w-2/5  text-slate-600 mx-auto text-justify ">
             We present a brief introduction & guide to Julia language. We
             examine calculation of pivot patterns emerging from application of
             GECP in Hadamard matrices, Benchmarks between Julia, Matlab & Python
