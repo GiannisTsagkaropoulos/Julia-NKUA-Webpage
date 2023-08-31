@@ -1,19 +1,46 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import ContactButton from "../contact/contact-button-navbar/ContactButton";
 
 function MainNavigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
 
-  const toggleMenu = () => {
+  useEffect(() => {
+    function handleOrientationChange(event) {
+      setIsFlipped(event.matches);
+    }
+
+    // Initial check
+    const initialOrientation = window.matchMedia("(orientation: landscape)");
+    handleOrientationChange(initialOrientation);
+
+    // Listen for orientation changes
+    const mediaQuery = window.matchMedia("(orientation: landscape)");
+    mediaQuery.addListener(handleOrientationChange);
+
+    // Clean up the media query listener when the component unmounts
+    return () => {
+      mediaQuery.removeListener(handleOrientationChange);
+    };
+  }, []);
+
+  const toggleMenuItem = (event) => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // bg-julia-blue-dark opacity-[98%]
-  //
+  const toggleMenuLogo = (event) => {
+    if (isMenuOpen) {
+      setIsMenuOpen(!isMenuOpen);
+    }
+  };
+
   return (
-    <header className="fixed w-full h-28 flex order-1 items-center justify-between bg-julia-blue-dark bg-opacity-90 backdrop-blur-md px-10 xl:px-32 z-50">
+    <header
+      className="the-logo fixed w-full h-[5rem] lg:h-28 flex order-1 items-center justify-between bg-julia-blue-dark backdrop-blur-md px-10 xl:px-32 z-50"
+      onClick={toggleMenuLogo}
+    >
       <Link href="/">
         <Logo />
       </Link>
@@ -37,7 +64,7 @@ function MainNavigation() {
       </nav>
       <div className="lg:hidden">
         <button
-          onClick={toggleMenu}
+          onClick={toggleMenuItem}
           className="text-white focus:outline-none animation-200"
         >
           <svg
@@ -58,34 +85,55 @@ function MainNavigation() {
         </button>
       </div>
       {isMenuOpen && (
-        <nav className="lg:hidden absolute top-[6.7rem] left-0 w-full bg-julia-blue-dark h-screen z-50">
-          <ul className="flex flex-col list-none m-0 p-0 py-4 text-center mt-8">
+        <nav className="lg:hidden absolute top-[5rem] lg:top-[6.7rem] left-0 w-full bg-julia-blue-dark h-screen z-50">
+          <ul className="flex flex-col list-none m-0 p-0 text-center mt-8">
             <li
-              onClick={toggleMenu}
+              onClick={toggleMenuItem}
               className="text-white text-3xl hover:scale-110 font-extrabold"
             >
               <Link href="/download-guide">Download</Link>
             </li>
+            {isFlipped ? (
+              <li
+                onClick={toggleMenuItem}
+                className="text-white text-3xl hover:scale-110 font-extrabold my-2"
+              >
+                <Link href="/getting-started">Getting Started</Link>
+              </li>
+            ) : (
+              <li
+                onClick={toggleMenuItem}
+                className="text-white text-3xl hover:scale-110 font-extrabold my-12"
+              >
+                <Link href="/getting-started">Getting Started</Link>
+              </li>
+            )}
+
             <li
-              onClick={toggleMenu}
-              className="text-white text-3xl hover:scale-110 font-extrabold my-12"
-            >
-              <Link href="/getting-started">Getting Started</Link>
-            </li>
-            <li
-              onClick={toggleMenu}
+              onClick={toggleMenuItem}
               className="text-white text-3xl hover:scale-110 font-extrabold "
             >
               <Link href="/our-work">Our Work</Link>
             </li>
-            <li
-              onClick={toggleMenu}
-              className="text-white text-3xl hover:scale-110 font-extrabold mt-16"
-            >
-              <Link href="/contact">
-                <ContactButton />
-              </Link>
-            </li>
+            {isFlipped ? (
+              <li
+                onClick={toggleMenuItem}
+                className="text-white text-3xl hover:scale-110 font-extrabold mt-4"
+              >
+                <Link href="/contact">
+                  <ContactButton />
+                </Link>
+              </li>
+            ) : (
+              <li
+                onClick={toggleMenuItem}
+                className="text-white text-3xl hover:scale-110 font-extrabold mt-16"
+              >
+                <Link href="/contact">
+                  <ContactButton />
+                </Link>
+              </li>
+            )}
           </ul>
         </nav>
       )}

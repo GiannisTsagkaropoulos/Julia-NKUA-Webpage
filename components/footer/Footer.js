@@ -1,22 +1,29 @@
-import FooterItem from "../helpers/FooterItem";
-// import { LinkedIn, Github } from "../icons/Icons";
+import FooterItem from "./FooterItem";
+import { LinkedIn, Github } from "../../icons/icons";
 
 function Footer() {
   return (
-    <section className="mt-28 text-center">
-      <div className="container mx-auto max-w-screen-lg">
-        <div className="flex flex-wrap justify-center gap-3 pb-4">
-          <FooterItem
-            link={"https://www.linkedin.com/in/alexandros-tsagkaropoulos/"}
-          >
-            <LinkedIn />
-          </FooterItem>
-          <FooterItem link={"https://github.com/alextsagkas"}>
-            <Github />
-          </FooterItem>
-        </div>
+    <section className="flex-none text-center py-4 bg-julia-blue-dark  w-full bottom-0">
+      <div className="flex flex-wrap justify-center gap-3 mb-2">
+        <FooterItem
+          link={"https://www.linkedin.com/in/ioannis-tsagkaropoulos-85a280233/"}
+        >
+          <img
+            src="/images/icons/linkedin.png"
+            alt="linkedin-icon"
+            className="w-8"
+          />
+        </FooterItem>
+        <FooterItem link={"https://github.com/GiannisTsagkaropoulos"}>
+          {/* <Github /> */}
+          <img
+            src="/images/icons/github.png"
+            alt="github-icon"
+            className="w-8"
+          />
+        </FooterItem>
       </div>
-      <p className="mt-1 mb-4 text-sm opacity-50">
+      <p className="text-base text-white">
         &copy; {new Date().getFullYear()} Giannis Tsagkaropoulos. All rights
         reserved.
       </p>

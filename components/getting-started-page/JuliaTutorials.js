@@ -1,12 +1,12 @@
 function JuliaTutorials() {
   return (
     <div>
-      <div className="w-10/12 grid grid-cols-3 gap-4 place-items-center mx-auto">
-        <div className="w-[80%] lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
-        <h3 className="text-2xl md:text-5xl text-julia-blue-dark font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
+      <div className="w-10/12 grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center mx-auto">
+        <div className="w-full lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
+        <h3 className="text-2xl md:text-5xl text-julia-blue-dark font-extrabold mx-auto text-center my-2 lg:my-4 tracking-wide col-span-1">
           Julia Tutorials
         </h3>
-        <div className="w-[80%] lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
+        <div className="w-full lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
       </div>
       <div className="h-8"></div>
       <div>

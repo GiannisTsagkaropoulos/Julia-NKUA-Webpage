@@ -1,9 +1,9 @@
 function Classroom() {
   return (
     <div>
-      <div className="w-10/12 grid grid-cols-3 gap-4 place-items-center mx-auto">
+      <div className="w-10/12 grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center mx-auto">
         <div className="w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
-        <h3 className="text-3xl lg:text-4xl text-julia-blue-light font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
+        <h3 className="text-3xl lg:text-4xl text-julia-blue-light font-extrabold mx-auto text-center my-2 lg:my-4 tracking-wide col-span-1">
           In the Classroom
         </h3>
         <div className="w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />

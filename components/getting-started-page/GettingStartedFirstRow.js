@@ -1,12 +1,12 @@
 function GettingStartedFirstRow() {
   return (
     <section>
-      <div className="grid grid-cols-3 gap-4 place-items-center mx-auto w-10/12">
-        <div className="w-[60%] lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center mx-auto w-10/12">
+        <div className="w-full lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
         <h3 className="text-2xl xl:text-[2.7rem] text-julia-blue-dark font-semibold lg:font-bold mx-auto text-center my-4 tracking-wide col-span-1">
           Get Started with Julia
         </h3>
-        <div className="w-[60%] lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
+        <div className="w-full lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
       </div>
       <div className="h-10"></div>
       <div className="lg:w-10/12 w-10/12 grid grid-cols-1 lg:grid-cols-2 gap-10 place-items-center mx-auto">

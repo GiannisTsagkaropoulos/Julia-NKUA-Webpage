@@ -7,10 +7,10 @@ function CaseStudy(props) {
     >
       <div>
         <h3>
-          <span className="p-3 bg-julia-blue-dark rounded-sm font-normal text-xl text-white">
+          <span className="p-3 bg-julia-blue-dark rounded-sm font-normal text-base md:text-xl text-white">
             {props.company}
           </span>
-          <span className="p-3 font-normal text-xl text-gray-800">
+          <span className="p-3 font-normal text-base md:text-xl text-gray-800">
             {props.companyHelper}
           </span>
         </h3>

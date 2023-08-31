@@ -136,7 +136,7 @@ const ContactForm = forwardRef((props, ref) => {
           acceptCharset="UTF-8"
           className="flex w-full flex-col"
         >
-          <h1 className="mb-5 pt-16 text-2xl lg:text-3xl font-bold text-white">
+          <h1 className="mb-5 pt-16 text-3xl lg:text-3xl font-bold text-white">
             Contact{" "}
           </h1>
           <div className="flex flex-col gap-4">
