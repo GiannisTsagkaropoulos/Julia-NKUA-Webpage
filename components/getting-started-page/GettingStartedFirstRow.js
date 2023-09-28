@@ -17,7 +17,7 @@ function GettingStartedFirstRow() {
               Julia Team NKUA Interactive Cheatsheet
             </a>
           </h4>
-          <p className="text-xl 2xl:text-[1.5rem] text-justify text-white">
+          <p className="text-xl lg:text-[1.3rem] text-justify text-white">
             Want a quick introduction to Julia in order to write your first
             programms? Check out the{" "}
             <a

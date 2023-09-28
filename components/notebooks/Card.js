@@ -22,11 +22,11 @@ export default function Card(props) {
       </div>
 
       <div className="my-row">
-        <ul className="flex flex-wrap justify-start items-center py-3 my-3 text-xxs md:text-xxs text-white font-medium w-11/12 mx-auto">
+        <ul className="flex flex-wrap justify-start items-center py-3 my-3 text-xs md:text-xxs text-white font-medium w-11/12 mx-auto">
           {props.tags.map((tag) => (
             <li
               key={tag.id}
-              className={`p-1 lg:p-[0.65rem] lg:text-base  rounded-3xl m-1 ${tag.color}`}
+              className={`p-1 lg:p-[0.65rem]  lg:text-xs rounded-3xl m-1 ${tag.color}`}
             >
               {tag.title}
             </li>

@@ -3,7 +3,7 @@ function CaseStudy(props) {
     <a
       target="_blank"
       href={props.link}
-      className="mb-8  hover:scale-[1.01] hover:-translate-y-[2px] duration-[60ms]"
+      className="mb-8  border-b-[3px] border-julia-blue-light/10 hover:border-julia-blue-light p-2"
     >
       <div>
         <h3>
