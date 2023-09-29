@@ -3,7 +3,7 @@ function TutorialCard(props) {
     <a
       target="_blank"
       href={props.link}
-      className="flex flex-col bg-neutral-50 rounded-lg shadow-md border-[3px] border-julia-blue-light/50 w-[20rem] h-[28rem] md:w-[26rem] md:h-[32rem] hover:border-julia-blue-light hover:cursor-pointer transition duration-10"
+      className="flex flex-col bg-neutral-50 rounded-lg shadow-md border-[3px] border-julia-blue-light/50 w-[20rem] h-[28rem] md:w-[20rem] md:h-[32rem] hover:border-julia-blue-light hover:cursor-pointer transition duration-10"
     >
       <div className="my-row grow">
         <div className="rounded-md max-h-56 w-full overflow-hidden">
@@ -17,7 +17,7 @@ function TutorialCard(props) {
           <h2 className="text-julia-blue-light py-3 font-medium text-left text-lg lg:text-xl">
             {props.title}
           </h2>
-          <p className="tracking-wider text-justify text-gray-600 text-sm lg:text-base">
+          <p className="tracking-wider text-justify text-gray-600 text-sm 2xl:text-base break-words">
             {props.content}
           </p>
         </div>
@@ -28,7 +28,7 @@ function TutorialCard(props) {
           {props.tags.map((tag) => (
             <li
               key={tag.id}
-              className={`p-1 lg:p-3 rounded-3xl text-xs lg:text-base m-1 ${tag.color} ${tag.hover} hover:cursor-pointer`}
+              className={`p-1 lg:p-2 rounded-3xl text-xs m-1 ${tag.color} ${tag.hover} hover:cursor-pointer`}
             >
               {tag.title}
             </li>

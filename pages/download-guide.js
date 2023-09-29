@@ -74,10 +74,10 @@ export default function DownloadGuidePage(props) {
         />
       </Head>
       <div className="z-1">
-        <div className="h-20 lg:h-28"></div>
+        <div className="h-16 2xl:h-[4.5rem]"></div>
         <section className="h-fit bg-[#ecf0fd]">
           <div className="h-12"></div>
-          <h2 className="text-3xl lg:text-5xl text-julia-blue-dark font-extrabold mx-auto text-center my-4 tracking-wide w-10/12">
+          <h2 className="text-3xl lg:text-4xl 2xl:text-5xl text-julia-blue-dark font-extrabold mx-auto text-center my-4 tracking-wide w-10/12">
             The days of having julia pre-installed in your machine are not here
             (yet!)
           </h2>

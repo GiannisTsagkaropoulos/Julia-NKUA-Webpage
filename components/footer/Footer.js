@@ -3,7 +3,7 @@ import { LinkedIn, Github } from "../../icons/icons";
 
 function Footer() {
   return (
-    <section className="flex-none text-center py-4 bg-julia-blue-dark  w-full bottom-0">
+    <section className="flex-none text-center py-2 bg-julia-blue-dark  w-full bottom-0">
       <div className="flex flex-wrap justify-center gap-3 mb-2">
         <FooterItem
           link={"https://www.linkedin.com/in/ioannis-tsagkaropoulos-85a280233/"}

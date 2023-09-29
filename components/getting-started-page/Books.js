@@ -3,7 +3,7 @@ function Books() {
     <div>
       <div className="w-10/12 grid grid-cols-3 gap-4 place-items-center mx-auto">
         <div className="w-[100%] h-[0.12rem] bg-julia-red-light flex items-center" />
-        <h3 className="text-3xl lg:text-5xl text-julia-red-light font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
+        <h3 className="text-2xl lg:text-4xl 2xl:text-5xl text-julia-red-light font-extrabold mx-auto text-center my-4 tracking-wide col-span-1">
           Books
         </h3>
         <div className="w-[100%] h-[0.12rem] bg-julia-red-light flex items-center" />

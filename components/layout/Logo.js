@@ -27,9 +27,9 @@ const Logo = () => {
           <img
             src="images/favicon/ekpa_julia_logo.png"
             alt=""
-            className="object-contain w-[3.5rem] lg:w-20"
+            className="object-contain w-[3.5rem] 2xl:w-[4rem]"
           />
-          <p className="text-2xl lg:text-4xl text-center">
+          <p className="text-2xl 2xl:text-4xl text-center">
             {" "}
             Julia Team <br /> NKUA
           </p>

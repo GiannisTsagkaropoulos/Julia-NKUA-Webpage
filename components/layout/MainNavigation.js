@@ -38,7 +38,7 @@ function MainNavigation() {
 
   return (
     <header
-      className="the-logo fixed w-full h-[5rem] lg:h-28 flex order-1 items-center justify-between bg-julia-blue-dark backdrop-blur-md px-10 xl:px-32 z-50"
+      className="the-logo fixed w-full h-[4.7rem] 2xl:h-[5.1rem] flex order-1 items-center justify-between bg-julia-blue-dark backdrop-blur-md px-10 xl:px-32 z-50"
       onClick={toggleMenuLogo}
     >
       <Link href="/">
@@ -46,13 +46,13 @@ function MainNavigation() {
       </Link>
       <nav className="hidden lg:block">
         <ul className="list-none m-0 p-0 flex items-baseline ">
-          <li className="ml-12 text-white text-xl hover:scale-110 font-extrabold">
+          <li className="ml-12 text-white text-lg 2xl:text-xl hover:scale-110 font-extrabold">
             <Link href="/download-guide">Download</Link>
           </li>
-          <li className="ml-12 text-white text-xl hover:scale-110 font-extrabold">
+          <li className="ml-12 text-white text-lg 2xl:text-xl hover:scale-110 font-extrabold">
             <Link href="/getting-started">Getting Started</Link>
           </li>
-          <li className="ml-12 text-white text-xl hover:scale-110 font-extrabold">
+          <li className="ml-12 text-white text-lg 2xl:text-xl hover:scale-110 font-extrabold">
             <Link href="/our-work">Our Work</Link>
           </li>
           <li className="ml-12">
@@ -85,8 +85,8 @@ function MainNavigation() {
         </button>
       </div>
       {isMenuOpen && (
-        <nav className="lg:hidden absolute top-[5rem] lg:top-[6.7rem] left-0 w-full bg-julia-blue-dark h-screen z-50">
-          <ul className="flex flex-col list-none m-0 p-0 text-center mt-8">
+        <nav className="lg:hidden absolute top-[4.5rem] 2xl:top-[4.8rem] left-0 w-full bg-julia-blue-dark h-screen z-50">
+          <ul className="flex flex-col list-none m-0 p-0 text-center mt-[1.75rem]">
             <li
               onClick={toggleMenuItem}
               className="text-white text-3xl hover:scale-110 font-extrabold"

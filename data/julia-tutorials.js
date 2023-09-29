@@ -31,13 +31,13 @@ export const TUTORIALS = [
       {
         id: "tag2",
         title: "Intermediate",
-        color: "bg-julia-green-light",
-        // hover: "hover:bg-julia-green-dark",
+        color: "bg-julia-blue-light",
+        // hover: "hover:bg-julia-blue-dark",
       },
       {
         id: "tag4",
         title: "Data Science",
-        color: "bg-julia-red-light",
+        color: "bg-julia-blue-light",
         // hover: "hover:bg-julia-blue-dark",
       },
     ],
@@ -82,8 +82,8 @@ export const TUTORIALS = [
       {
         id: "tag2",
         title: "Intermediate",
-        color: "bg-julia-green-light",
-        // hover: "hover:bg-julia-green-dark",
+        color: "bg-julia-blue-light",
+        // hover: "hover:bg-julia-blue-dark",
       },
     ],
     author: {
@@ -125,8 +125,8 @@ export const TUTORIALS = [
       {
         id: "tag2",
         title: "Intermediate",
-        color: "bg-julia-green-light",
-        // hover: "hover:bg-julia-green-dark",
+        color: "bg-julia-blue-light",
+        // hover: "hover:bg-julia-blue-dark",
       },
     ],
     author: {
@@ -147,13 +147,13 @@ export const TUTORIALS = [
       {
         id: "tag2",
         title: "Intermediate",
-        color: "bg-julia-green-light",
-        // hover: "hover:bg-julia-green-dark",
+        color: "bg-julia-blue-light",
+        // hover: "hover:bg-julia-blue-dark",
       },
       {
         id: "tag4",
         title: "Data Science",
-        color: "bg-julia-red-light",
+        color: "bg-julia-blue-light",
         // hover: "hover:bg-julia-blue-dark",
       },
     ],
@@ -174,7 +174,7 @@ export const TUTORIALS = [
       {
         id: "tag3",
         title: "Advanced",
-        color: "bg-julia-purple-light",
+        color: "bg-julia-blue-light",
         // hover: "hover:bg-julia-blue-dark",
       },
     ],
@@ -195,7 +195,7 @@ export const TUTORIALS = [
       {
         id: "tag3",
         title: "Advanced",
-        color: "bg-julia-purple-light",
+        color: "bg-julia-blue-light",
         // hover: "hover:bg-julia-blue-dark",
       },
     ],
@@ -216,7 +216,7 @@ export const TUTORIALS = [
       {
         id: "tag3",
         title: "Advanced",
-        color: "bg-julia-purple-light",
+        color: "bg-julia-blue-light",
         // hover: "hover:bg-julia-blue-dark",
       },
     ],
@@ -238,14 +238,14 @@ export const TUTORIALS = [
       {
         id: "tag3",
         title: "Advanced",
-        color: "bg-julia-purple-light",
+        color: "bg-julia-blue-light",
         // hover: "hover:bg-julia-blue-dark",
       },
       {
         id: "tag2",
         title: "Intermediate",
-        color: "bg-julia-green-light",
-        // hover: "hover:bg-julia-green-dark",
+        color: "bg-julia-blue-light",
+        // hover: "hover:bg-julia-blue-dark",
       },
     ],
     author: {

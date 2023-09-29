@@ -3,7 +3,7 @@ function GettingStartedFirstRow() {
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center mx-auto w-10/12">
         <div className="w-full lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
-        <h3 className="text-2xl xl:text-[2.7rem] text-julia-blue-dark font-semibold lg:font-bold mx-auto text-center my-4 tracking-wide col-span-1 leading-10">
+        <h3 className="text-2xl lg:text-4xl 2xl:text-5xl text-julia-blue-dark font-semibold lg:font-bold mx-auto text-center my-4 tracking-wide col-span-1 leading-10">
           Get Started with Julia
         </h3>
         <div className="w-full lg:w-[100%] h-[0.12rem] bg-julia-blue-dark flex items-center" />
@@ -11,7 +11,7 @@ function GettingStartedFirstRow() {
       <div className="h-10"></div>
       <div className="lg:w-10/12 w-10/12 grid grid-cols-1 lg:grid-cols-2 gap-10 place-items-center mx-auto">
         <div className="h-full">
-          <h4 className="text-2xl lg:text-3xl xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
+          <h4 className="text-3xl 2xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
             {" "}
             <a href="https://nkuamath-julia.github.io/NASCA23/notebooks/julia_guide.html">
               Julia Team NKUA Interactive Cheatsheet
@@ -30,7 +30,7 @@ function GettingStartedFirstRow() {
           </p>
         </div>
         <div className="h-full">
-          <h4 className="text-2xl lg:text-3xl xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
+          <h4 className="text-3xl 2xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
             {" "}
             <a href="https://juliaacademy.com/courses?preview=logged_out">
               Julia Academy
@@ -51,7 +51,7 @@ function GettingStartedFirstRow() {
         </div>
 
         <div className="h-full">
-          <h4 className="text-2xl lg:text-3xl xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
+          <h4 className="text-3xl 2xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
             {" "}
             <a href="https://exercism.org/tracks/julia">Exercism Julia Track</a>
           </h4>
@@ -68,7 +68,7 @@ function GettingStartedFirstRow() {
           </p>
         </div>
         <div className="h-full">
-          <h4 className="text-2xl lg:text-3xl xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
+          <h4 className="text-3xl 2xl:text-4xl text-julia-blue-light font-medium mb-5 hover:underline lg:mb-10">
             <a href="https://docs.julialang.org/en/v1/manual/getting-started/">
               The Manual{" "}
             </a>

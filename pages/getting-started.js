@@ -23,7 +23,7 @@ export default function GettingStartedPage() {
         />
       </Head>
       <main className="z-1">
-        <div className="h-20 lg:h-28"></div>
+        <div className="h-16 2xl:h-[4.5rem]"></div>
         <section className="h-fit bg-[#b0badf]">
           <div className="h-12"></div>
           <JuliaSentences />

@@ -3,7 +3,7 @@ function Youtube() {
     <div className="w-10/12 bg-julia-blue-light/10 rounded-lg p-8 mx-auto mt-12">
       <div className="w-11/12 grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center mx-auto">
         <div className="w-full lg:w-[100%] bg-julia-red-light h-[0.12rem] flex items-center" />
-        <h3 className="text-2xl lg:text-3xl xl:text-5xl text-julia-red-light font-extrabold text-center  lg:my-4 tracking-wide col-span-1">
+        <h3 className="text-2xl lg:text-4xl 2xl:text-5xl text-julia-red-light font-extrabold text-center  lg:my-4 tracking-wide col-span-1">
           Youtube
         </h3>
         <div className="w-full lg:w-[100%] bg-julia-red-light h-[0.12rem] flex items-center" />
