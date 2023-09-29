@@ -10,7 +10,7 @@ export const TEAM_MEMBERS = [
     id: "Psitou",
     name: "Anastasia-Efterpi Psitou",
     socialLink: "https://www.linkedin.com/in/ioannis-tsagkaropoulos-85a280233/",
-    image: "images/faces/psitou.jpg",
+    image: "images/faces/psitou.png",
     status: "Math Undergraduate",
   },
   {
@@ -29,7 +29,7 @@ export const TEAM_MEMBERS = [
   },
   {
     id: "Lardas",
-    name: "Emannouil Lardas",
+    name: "Emmanouil Lardas",
     socialLink: "https://www.linkedin.com/in/ioannis-tsagkaropoulos-85a280233/",
     image: "images/faces/lardas.jpg",
     status: "Math Undergraduate",
