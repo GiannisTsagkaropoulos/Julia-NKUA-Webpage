@@ -2,7 +2,7 @@ import classes from "./TriStateToggle.module.css";
 
 const TriStateToggle = (props) => {
   return (
-    <div className="flex items-center place-self-center w-[90%] lg:w-96 mx-auto">
+    <div className="flex items-center place-self-center w-96 mx-auto">
       <div>
         <button
           id="MacOS"

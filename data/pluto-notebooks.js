@@ -8,7 +8,7 @@ export const NOTEBOOKS = [
     thumbnail:
       "images/notebook_photos/thumbnails/julia_guide/julia-guide-thumbnail.png",
     content:
-      "A description of Julia Language( History, Characteristics, Feautes, Environments, Tools, Frameworks, Specification of the Language etc.) & Extensive How-to-code guide (Variables, Operators, Loops, Functios, Files, Packages etc.)",
+      "A description of Julia Language( History, Characteristics, Feautes, Environments, Tools, Frameworks, Specification of the Language etc.)",
     createdDate: "2021-05-12",
     tags: [
       {
@@ -74,7 +74,7 @@ export const NOTEBOOKS = [
   {
     id: "notebook4",
     title: "Decimal to b-ary conversion",
-    link: "https://Tsagkaropoulostsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/DecimalToBary.html",
+    link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/DecimalToBary.html",
     thumbnail:
       "images/notebook_photos/thumbnails/decimal_to_b_ary/decimal-to-b-ary-thumbnail.png",
     content:
@@ -105,7 +105,7 @@ export const NOTEBOOKS = [
   {
     id: "notebook2",
     title: "Binary Saving Formats",
-    link: "https://Tsagkaropoulostsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/BinarySavingFormats.html",
+    link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/BinarySavingFormats.html",
     thumbnail:
       "images/notebook_photos/thumbnails/binary_saving_formats/binary-saving-formats-thumbnail.png",
     content:
@@ -136,7 +136,7 @@ export const NOTEBOOKS = [
   {
     id: "notebook1",
     title: "Binary Rationals",
-    link: "https://Tsagkaropoulostsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/BinaryRationals.html",
+    link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/BinaryRationals.html",
     content:
       "Given 2 decimal numbers, a & b, and a maximum length of the fractional part, the programm will produce all the numbers in [a,b] with a finite binary representation (binary rationals).",
     createdDate: "2021-05-12",
@@ -191,13 +191,12 @@ export const NOTEBOOKS = [
   },
   {
     id: "notebook9",
-    title: "Pivot Pattern Finder in Hadamard Matrices using GECP",
+    title: "Pivot Pattern Finder for Hadamard Matrices of Order 20 using GECP",
     link: "https://nkuamath-julia.github.io/NASCA23/notebooks/Pivot%20Pattern%20Finder.html",
     thumbnail:
       "images/notebook_photos/thumbnails/hadamard/pivot-pattern-finder-thumbnail.png",
-
     content:
-      "Code which is used to find possible pivot patterns of Hadamard matrices of order 20 using GECP. Note: in order to avoid rounding errors, the use of rational numbers were chosen for significant operations with not integer results.",
+      "Code which is used to find possible pivot patterns of Hadamard matrices of order 20 using GECP. Note: In order to avoid rounding errors, the use of rational numbers was chosen for significant operations with potentially non-integer results.",
     createdDate: "2021-05-12",
     tags: [
       {
@@ -218,7 +217,7 @@ export const NOTEBOOKS = [
   {
     id: "notebook3",
     title: "Interpolation Polynomials",
-    link: "https://Tsagkaropoulostsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/PolynomialInterpolation.html",
+    link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/PolynomialInterpolation.html",
     thumbnail:
       "images/notebook_photos/thumbnails/polynomial_interpolation/interpolation-polynomials-thumbnail.png",
 
@@ -251,7 +250,7 @@ export const NOTEBOOKS = [
   {
     id: "notebook5",
     title: "Natural Cubic Spline",
-    link: "https://Tsagkaropoulostsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/NaturalCubicSpline.html",
+    link: "https://giannistsagkaropoulos.github.io/Arithmetical-Analysis/notebooks/NaturalCubicSpline.html",
     thumbnail:
       "images/notebook_photos/thumbnails/natural_cubic_spline/natural-cubic-spline-thumbnail.png",
     content:

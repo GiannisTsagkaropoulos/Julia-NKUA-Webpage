@@ -3,21 +3,30 @@ function CaseStudy(props) {
     <a
       target="_blank"
       href={props.link}
-      className="mb-8  border-b-[3px] border-julia-blue-light/10 hover:border-julia-blue-light p-2 pb-4"
+      className="mb-8 border-b-[3px] border-julia-blue-light/10 hover:border-julia-blue-light p-2 pb-4"
     >
-      <div>
+      {/* <div className="">
         <h3>
-          <span className="p-3 bg-julia-blue-dark rounded-sm font-normal text-base md:text-xl text-white">
+          <span className="p-3 bg-julia-blue-dark rounded-sm font-normal text-base text-white mb-5">
             {props.company}
           </span>
-          <span className="p-3 font-normal text-base md:text-xl text-gray-800">
+          <span className="p-3 font-normal text-base text-gray-800 hidden lg:inline-block">
             {props.companyHelper}
           </span>
         </h3>
-      </div>
+      </div> */}
 
-      <div className="body">
-        <div className="mt-[0.61rem]">
+      <div className="body flex flex-col gap-y-0">
+        <h3 className="mb-2 lg:mb-0 lg:mt-1">
+          <span className="p-3 bg-julia-blue-dark rounded-sm font-normal text-base text-white">
+            {props.company}
+          </span>
+          <span className="p-3 font-normal text-base text-gray-800 hidden lg:inline-block">
+            {props.companyHelper}
+          </span>
+        </h3>
+
+        <div className="">
           <img
             src={props.image}
             className="w-full object-cover h-[200px] rounded-sm"

@@ -1,4 +1,4 @@
-.btn:before {
+/* .btn:before {
   content: "";
   position: absolute;
   top: 0;
@@ -16,4 +16,4 @@
 
 .btn:hover:before {
   left: 100%;
-}
+} */

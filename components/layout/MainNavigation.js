@@ -85,25 +85,25 @@ function MainNavigation() {
         </button>
       </div>
       {isMenuOpen && (
-        <nav className="lg:hidden absolute top-[4.5rem] 2xl:top-[4.8rem] left-0 w-full bg-julia-blue-dark h-screen z-50">
-          <ul className="flex flex-col list-none m-0 p-0 text-center mt-[1.75rem]">
+        <nav className="lg:hidden absolute top-[4.5rem] 2xl:top-[4.8rem] left-0 w-full bg-julia-blue-dark h-screen z-50  border-t-[2px] border-t-organge-800">
+          <ul className="flex flex-col list-none m-0 p-0 text-center  gap-12 h-screen my-24">
             <li
               onClick={toggleMenuItem}
-              className="text-white text-3xl hover:scale-110 font-extrabold"
+              className="text-slate-100 text-3xl font-extrabold"
             >
               <Link href="/download-guide">Download</Link>
             </li>
             {isFlipped ? (
               <li
                 onClick={toggleMenuItem}
-                className="text-white text-3xl hover:scale-110 font-extrabold my-2"
+                className="text-slate-100 text-3xl font-extrabold my-2"
               >
                 <Link href="/getting-started">Getting Started</Link>
               </li>
             ) : (
               <li
                 onClick={toggleMenuItem}
-                className="text-white text-3xl hover:scale-110 font-extrabold my-12"
+                className="text-slate-100 text-3xl font-extrabold my-12"
               >
                 <Link href="/getting-started">Getting Started</Link>
               </li>
@@ -111,27 +111,23 @@ function MainNavigation() {
 
             <li
               onClick={toggleMenuItem}
-              className="text-white text-3xl hover:scale-110 font-extrabold "
+              className="text-slate-100 text-3xl font-extrabold"
             >
               <Link href="/our-work">Our Work</Link>
             </li>
             {isFlipped ? (
               <li
                 onClick={toggleMenuItem}
-                className="text-white text-3xl hover:scale-110 font-extrabold mt-4"
+                className="text-slate-100 text-3xl font-extrabold my-4"
               >
-                <Link href="/contact">
-                  <ContactButton />
-                </Link>
+                <Link href="/contact">Contact</Link>
               </li>
             ) : (
               <li
                 onClick={toggleMenuItem}
-                className="text-white text-3xl hover:scale-110 font-extrabold mt-16"
+                className="text-slate-100 text-3xl font-extrabold my-12"
               >
-                <Link href="/contact">
-                  <ContactButton />
-                </Link>
+                <Link href="/contact">Contanct</Link>
               </li>
             )}
           </ul>

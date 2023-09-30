@@ -1,7 +1,7 @@
 function PlutoThanks() {
   return (
     <div>
-      <h3 className="text-3xl lg:text-4xl  text-julia-blue-dark tracking-wider font-semibold text-center">
+      <h3 className="text-3xl lg:text-4xl  text-julia-blue-dark tracking-wider font-semibold text-center w-11/12">
         A special thanks to{" "}
         <a
           target="_blank"
