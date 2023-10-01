@@ -8,7 +8,7 @@ export const NOTEBOOKS = [
     thumbnail:
       "images/notebook_photos/thumbnails/julia_guide/julia-guide-thumbnail.png",
     content:
-      "A description of Julia Language( History, Characteristics, Feautes, Environments, Tools, Frameworks, Specification of the Language etc.)",
+      "A description of Julia Language( History, Characteristics, Features, Environments, Tools, Frameworks, Specification of the Language etc.)",
     createdDate: "2021-05-12",
     tags: [
       {
