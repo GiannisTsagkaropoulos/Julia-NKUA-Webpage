@@ -127,7 +127,7 @@ function MainNavigation() {
                 onClick={toggleMenuItem}
                 className="text-slate-100 text-3xl font-extrabold my-12"
               >
-                <Link href="/contact">Contanct</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             )}
           </ul>

@@ -24,7 +24,7 @@ export const TEAM_MEMBERS = [
   {
     id: "Koukoudakis",
     name: "Nikolas Koukoudakis",
-    socialLink: "https://github.com/NicolasKouk",
+    socialLink: "https://www.linkedin.com/in/nicolas-koukoudakis/",
     image: "images/faces/koukoudakis.jpg",
     status: "Math Undergraduate",
   },
@@ -39,7 +39,7 @@ export const TEAM_MEMBERS = [
     id: "Kremmydas",
     name: "Markos Theocharis Kremmydas",
     socialLink: "https://github.com/TheoMarkRe",
-    image: "images/faces/kremmydas.jpg",
+    image: "images/faces/markos.jpg",
     status: "Math Undergraduate",
   },
 ];
