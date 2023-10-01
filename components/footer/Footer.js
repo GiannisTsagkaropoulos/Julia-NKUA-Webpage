@@ -3,7 +3,7 @@ import { LinkedIn, Github } from "../../icons/icons";
 
 function Footer() {
   return (
-    <section className="flex-none text-center py-2 bg-julia-blue-dark  w-full bottom-0">
+    <section className="flex-none text-center py-1 bg-julia-blue-dark  w-full bottom-0">
       <div className="flex flex-wrap justify-center gap-3 mb-2">
         <FooterItem
           link={"https://www.linkedin.com/in/ioannis-tsagkaropoulos-85a280233/"}
@@ -11,7 +11,7 @@ function Footer() {
           <img
             src="/images/icons/linkedin.png"
             alt="linkedin-icon"
-            className="w-8"
+            className="w-6"
           />
         </FooterItem>
         <FooterItem link={"https://github.com/GiannisTsagkaropoulos"}>
@@ -19,11 +19,11 @@ function Footer() {
           <img
             src="/images/icons/github.png"
             alt="github-icon"
-            className="w-8"
+            className="w-6"
           />
         </FooterItem>
       </div>
-      <p className="text-base text-white">
+      <p className="text-xs text-white">
         &copy; {new Date().getFullYear()} Giannis Tsagkaropoulos. All rights
         reserved.
       </p>
