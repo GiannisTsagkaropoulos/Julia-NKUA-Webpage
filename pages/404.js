@@ -18,7 +18,7 @@ function Custom404() {
             backgroundSize: "cover", // Set background-size to cover
           }}
         />
-        <h3 className="text-3xl 2xl:text-[80px] tracking-wide text-gray-700 font-extrabold mx-auto text-center">
+        <h3 className="text-3xl 2xl:text-[80px] tracking-wide text-gray-700 font-extrabold mx-auto text-center md:my-4">
           Look like you're lost
         </h3>
         <p className="text-lg lg:text-xl text-julia-blue-light opacity-70 tracking-wider font-medium mx-auto text-center">
