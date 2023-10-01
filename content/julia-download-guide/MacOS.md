@@ -129,7 +129,7 @@ We reccomend:
 
 1. To find the path you will need you will need to download the file labeled `64-bit.tar.gz` from [page installations](https://julialang.org/downloads/) by Julia.
 
-2. Copy the file path shown below: ![Alt text](images/download-guide/julia_bin_path.png).
+2. Copy the file path shown below: ![Alt text](images/download-guide/julia_bin_path.png)
 
 3. Open VS Code and select the following from the menu bar in the top of your screen : `File->Preferences->Settings` (or press `cmd + ,`) and look for `julia.executablePath` in search bar.
 
