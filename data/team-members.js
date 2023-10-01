@@ -16,7 +16,8 @@ export const TEAM_MEMBERS = [
   {
     id: "Maniatakos",
     name: "Panagiotis Maniatakos",
-    socialLink: "https://github.com/PanagiotisMan1",
+    socialLink:
+      "https://www.linkedin.com/in/panagiotis%2Dmaniatakos%2D491883293/",
     image: "images/faces/maniatakos.jpg",
     status: "Math Undergraduate",
   },
