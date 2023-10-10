@@ -36,7 +36,6 @@ export default function DownloadGuidePage(props) {
 
   function toggleSwitch(event) {
     const clickedOS = event.target.innerHTML; //.id;
-    console.log(clickedOS);
     setCurrentOS(clickedOS);
     const correspondingGuide = allGuides.find(
       (guide) => guide.id === clickedOS
@@ -82,7 +81,7 @@ export default function DownloadGuidePage(props) {
             (yet!)
           </h2>
           <div className="h-8"></div>
-          <TriStateToggle onClick={toggleSwitch} />
+          <TriStateToggle onClick={toggleSwitch} currentOS={currentOS} />
           <div className="h-8"></div>
           <ReactMarkdown
             components={customContent}
