@@ -1,5 +1,7 @@
 # What is in there?
 
+<img width="1433" alt="Screenshot 2023-11-04 at 23 25 25" src="https://github.com/GiannisTsagkaropoulos/Julia-NKUA-Webpage/assets/98717569/4ec59f05-c0a3-491d-8004-f9832fbcea16">
+
 ## Julia Computer Language Info
 
 Characteristics of Julia Computer Language and a short list of companies that use Julia Computer Language in their day to day work
