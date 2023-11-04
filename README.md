@@ -1,38 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# What is in there?
 
-## Getting Started
+## Julia Computer Language Info
 
-First, run the development server:
+Characteristics of Julia Computer Language and a short list of companies that use Julia Computer Language in their day to day work
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Download Guide
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A comprehensive download guide for MacOS, Windows & Linux Users 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<img width="1254" alt="Screenshot 2023-11-04 at 23 17 21" src="https://github.com/GiannisTsagkaropoulos/Julia-NKUA-Webpage/assets/98717569/f496b867-b011-4ee6-9ba4-752e3984ff9c">
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Getting Started Guide
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Links for introduction to Julia, instructor led videos on programming, exercises and getting feedback from a team of welcoming mentors and Julia's official documentation.
+- Youtube Channels to explore Julia's wilderness
+- Julia Courses to learn Julia through the lens of someone from the community.
+- Books which members of Julia's community have written since Julia was created.
+- List of universities that incorporate Julia in their teachings
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  
+<img width="1225" alt="Screenshot 2023-11-04 at 23 23 42" src="https://github.com/GiannisTsagkaropoulos/Julia-NKUA-Webpage/assets/98717569/57e9d2f2-8224-4d7e-aa4b-feec7c714928">
 
-## Learn More
+## Our Work
 
-To learn more about Next.js, take a look at the following resources:
+We, Julia Team NKUA present a brief introduction & guide to Julia language. We examine calculation of pivot patterns emerging from application of GECP in Hadamard matrices, Benchmarks between Julia, Matlab & Python in applications of matrix computations & the Newton-Raphson method, Base conversion programs, Polynomial Interpolation, Natural Cubic Splines, Accuracy of different expressions of equal quantities.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img width="1230" alt="Screenshot 2023-11-04 at 23 24 11" src="https://github.com/GiannisTsagkaropoulos/Julia-NKUA-Webpage/assets/98717569/9a9c1162-813b-46d4-a915-132bcc8d833c">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contact 
 
-## Deploy on Vercel
+- 🗳️Download/Getting started instructions unclear?
+- 🙋‍♂️ Need a helping hand learning Julia?
+- 🪲 Bugs in notebooks/website?
+- 💡 Got ideas to contribute?
+- 👀 Something else?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We are more than willing to help you!
+  
+  <img width="904" alt="Screenshot 2023-11-04 at 23 22 57" src="https://github.com/GiannisTsagkaropoulos/Julia-NKUA-Webpage/assets/98717569/328bb967-8d62-4766-abfc-87f5db276eac">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Our goal 
+
+Crafted for accessibility and engagement, our work is an effort to transform learning into an enjoyable and approachable journey.
+
