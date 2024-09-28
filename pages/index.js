@@ -13,6 +13,7 @@ export default function HomePage() {
           name="description"
           content="Characteristics of Julia language, which make it great for scientific computing & case studies of huge companies and coorporations using julia for their computations"
         />
+        <meta name="google-site-verification" content="I2VEy8eQyfYmPP0TE3GKWYdzeZ5OnIHqTOvafTeXBd0" />
       </Head>
 
       <main className="z-1">
