@@ -3,6 +3,7 @@ function CaseStudy(props) {
     <a
       target="_blank"
       href={props.link}
+      rel="noopener noreferrer"
       className="mb-8 border-b-[3px] border-julia-blue-light/10 hover:border-julia-blue-light p-2 pb-4"
     >
       {/* <div className="">

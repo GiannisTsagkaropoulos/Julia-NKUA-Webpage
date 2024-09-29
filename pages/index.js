@@ -13,7 +13,10 @@ export default function HomePage() {
           name="description"
           content="Characteristics of Julia language, which make it great for scientific computing & case studies of huge companies and coorporations using julia for their computations"
         />
-        <meta name="google-site-verification" content="I2VEy8eQyfYmPP0TE3GKWYdzeZ5OnIHqTOvafTeXBd0" />
+        <meta
+          name="google-site-verification"
+          content="I2VEy8eQyfYmPP0TE3GKWYdzeZ5OnIHqTOvafTeXBd0"
+        />
       </Head>
 
       <main className="z-1">
@@ -60,7 +63,8 @@ export default function HomePage() {
           <div className="flex justify-center mt-12">
             <a
               target="_blank"
-              href="https://juliahub.com/case-studies/"
+              href="https://info.juliahub.com/case-studies"
+              rel="noopener noreferrer"
               className="mx-auto bg-julia-blue-light hover:bg-julia-blue-dark px-8 py-3 rounded-lg text-white text-xl font-bold"
             >
               See more

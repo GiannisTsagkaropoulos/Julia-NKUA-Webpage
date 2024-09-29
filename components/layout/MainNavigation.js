@@ -64,7 +64,7 @@ function MainNavigation() {
                 : ""
             } ml-12 text-white text-lg 2xl:text-xl border-transparent hover:border-b-[3px] hover:border-white font-extrabold`}
           >
-            <Link href="/getting-started">Getting Started</Link>
+            <Link href="/getting-started">Get Started</Link>
           </li>
           <li
             className={`${

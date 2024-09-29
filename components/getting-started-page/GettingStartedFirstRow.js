@@ -17,7 +17,7 @@ function GettingStartedFirstRow() {
               Julia Team NKUA Interactive Cheatsheet
             </a>
           </h4>
-          <p className="text-xl lg:text-[1.3rem] text-justify text-white">
+          <p className="text-xl lg:text-[1.3rem] text-justify text-slate-600">
             Want a quick introduction to Julia in order to write your first
             programms? Check out the{" "}
             <a
@@ -36,7 +36,7 @@ function GettingStartedFirstRow() {
               Julia Academy
             </a>
           </h4>
-          <p className="text-xl lg:text-[1.3rem] text-justify text-white">
+          <p className="text-xl lg:text-[1.3rem] text-justify text-slate-600">
             Do you learn best by watching instructor led videos on programming?
             Check out{" "}
             <a
@@ -55,7 +55,7 @@ function GettingStartedFirstRow() {
             {" "}
             <a href="https://exercism.org/tracks/julia">Exercism Julia Track</a>
           </h4>
-          <p className="text-xl lg:text-[1.3rem] text-justify text-white">
+          <p className="text-xl lg:text-[1.3rem] text-justify text-slate-600">
             Prefer to learn by doing exercises and getting feedback from a team
             of welcoming mentors? Check out the Julia Track on{" "}
             <a
@@ -73,7 +73,7 @@ function GettingStartedFirstRow() {
               The Manual{" "}
             </a>
           </h4>
-          <p className="text-xl lg:text-[1.3rem] text-justify text-white">
+          <p className="text-xl lg:text-[1.3rem] text-justify text-slate-600">
             Want to just give it a shot and dive right into the Julia
             documentation? Check out the{" "}
             <a

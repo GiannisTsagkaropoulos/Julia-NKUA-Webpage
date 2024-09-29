@@ -9,7 +9,7 @@ function Youtube() {
         <div className="w-full lg:w-[100%] bg-julia-red-light h-[0.12rem] flex items-center" />
       </div>
       <div className="lg:mx-12 py-5">
-        <p className="text-lg lg:text-[1.3rem] font-normal leading-8 text-white text-left mb-4 lg:tracking-wide">
+        <p className="text-lg lg:text-[1.3rem] font-normal leading-8 text-slate-600 text-left mb-4 lg:tracking-wide">
           <span className="text-julia-blue-dark">• </span>
           <a
             target="_blank"
@@ -40,7 +40,7 @@ function Youtube() {
           that have accompanying Jupyter Notebooks viewers can follow along
           with.
         </p>
-        <p className="text-lg lg:text-[1.3rem] font-normal leading-8 text-white text-left mb-4 lg:tracking-wide">
+        <p className="text-lg lg:text-[1.3rem] font-normal leading-8 text-slate-600 text-left mb-4 lg:tracking-wide">
           <span className="text-julia-blue-dark">• </span>
           <a
             target="_blank"
@@ -54,7 +54,7 @@ function Youtube() {
           awaits!
         </p>
 
-        <p className="text-lg lg:text-[1.3rem] font-normal leading-8 text-white text-left mb-4 lg:tracking-wide">
+        <p className="text-lg lg:text-[1.3rem] font-normal leading-8 text-slate-600 text-left mb-4 lg:tracking-wide">
           <span className="text-julia-blue-dark">• </span>
           <a
             target="_blank"
@@ -66,7 +66,7 @@ function Youtube() {
           is a single place for modeling, simulation, machine learning, user
           built applications & much more with the Julia language.
         </p>
-        <p className="text-lg lg:text-[1.3rem] font-normal leading-8 text-white text-left mb-4 lg:tracking-wide">
+        <p className="text-lg lg:text-[1.3rem] font-normal leading-8 text-slate-600 text-left mb-4 lg:tracking-wide">
           <span className="text-julia-blue-dark">• </span>
           <a
             target="_blank"

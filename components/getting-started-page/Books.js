@@ -10,7 +10,7 @@ function Books() {
       </div>
       <div className="h-8"></div>
 
-      <p className="text-lg lg:text-[1.3rem] w-10/12 mx-auto text-white font-normal text-justify">
+      <p className="text-lg lg:text-[1.3rem] w-10/12 mx-auto text-slate-600 font-normal text-justify">
         Interested in getting a Julia book? Check out the{" "}
         <a
           href="https://julialang.org/learning/books/"

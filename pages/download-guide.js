@@ -90,6 +90,7 @@ export default function DownloadGuidePage(props) {
             {currentDownloadGuide.content}
           </ReactMarkdown>
           <div className="h-8"></div>
+          <div className="h-16 2xl:h-[4.5rem]"></div>
         </section>
       </div>
     </Fragment>

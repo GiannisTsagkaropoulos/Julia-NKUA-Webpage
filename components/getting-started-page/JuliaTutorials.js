@@ -10,7 +10,7 @@ function JuliaTutorials() {
       </div>
       <div className="h-8"></div>
       <div>
-        <p className="text-lg lg:text-[1.3rem] w-10/12 mx-auto text-white font-normal text-justify">
+        <p className="text-lg lg:text-[1.3rem] w-10/12 mx-auto text-slate-600 font-normal text-justify">
           A non-exhaustive list of community provided Julia tutorials is also
           available. Check them out to{" "}
           <a
@@ -23,7 +23,7 @@ function JuliaTutorials() {
           .
         </p>
         <div className="h-8"></div>
-        <p className="text-lg lg:text-[1.3rem] w-10/12 mx-auto text-white font-normal text-justify">
+        <p className="text-lg lg:text-[1.3rem] w-10/12 mx-auto text-slate-600 font-normal text-justify">
           There also exist a growing number of curated Julia courses in the form
           of video lecture series. These courses are freely available on{" "}
           <a

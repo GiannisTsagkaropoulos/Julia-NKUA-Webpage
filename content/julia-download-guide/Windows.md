@@ -6,7 +6,7 @@ date: "17/12/2023"
 excerpt: "A  comprehensive guide to download julia computer language in a Windows machine"
 ---
 
-# ⊞ Windows Users
+# Windows Users
 
 ## Julia Language Installation
 

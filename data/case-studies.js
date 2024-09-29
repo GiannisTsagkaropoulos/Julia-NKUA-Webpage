@@ -5,8 +5,7 @@ export const CASE_STUDIES = [
     company: "NY Federal Reserve",
     companyHelper: "Central banking",
     title: "Macroeconomic Modelling",
-    image:
-      "https://juliahub.com/case-studies/CasestudyBanners/JuliaComp_casestudy_banners-07.jpg",
+    image: "images/case_studies/dollar-bill.jpg",
     paragraph:
       "The Federal Reserve Bank of New York publishes its trademark Dynamic Stochastic General Equilibrium models in Julia",
   },
@@ -16,8 +15,7 @@ export const CASE_STUDIES = [
     company: "MIT",
     companyHelper: "Robotics",
     title: "Robotics Locomotion",
-    image:
-      "https://juliahub.com/case-studies/CasestudyBanners/JuliaComp_casestudy_banners-31.jpg",
+    image: "images/case_studies/robot-legs.jpg",
     paragraph:
       "MIT roboticists program robots in Julia to climb stairs and walk on hazardous, difficult and uneven terrain",
   },
@@ -27,8 +25,7 @@ export const CASE_STUDIES = [
     company: "CISCO",
     companyHelper: "Machine Learning",
     title: "Network Security",
-    image:
-      "https://juliahub.com/case-studies/CasestudyBanners/JuliaComp_casestudy_banners-36.jpg",
+    image: "images/case_studies/fingerprint-network-security.jpg",
     paragraph:
       "Cisco researchers use Julia for machine learning to improve network security",
   },
@@ -38,8 +35,7 @@ export const CASE_STUDIES = [
     company: "Boston Public Schools",
     companyHelper: "Transportation",
     title: "Optimising Bus Routes and Times",
-    image:
-      "https://juliahub.com/case-studies/CasestudyBanners/JuliaComp_casestudy_banners-42.jpg",
+    image: "images/case_studies/school-bus-boston.jpg",
     paragraph:
       "Optimization in Julia helps Boston schools eliminate up to 200 school buses, save up to $18 million and lets students get more sleep",
   },
@@ -49,8 +45,7 @@ export const CASE_STUDIES = [
     company: "Astrazeneca",
     companyHelper: "Pharmaceutical",
     title: "Predicting Toxicity",
-    image:
-      "https://juliahub.com/case-studies/CasestudyBanners/JuliaComp_casestudy_banners-47.jpg",
+    image: "images/case_studies/pharmaceutic-pill.jpg",
     paragraph:
       "AstraZeneca and Prioris.ai researchers use Julia, Flux.jl and Turing.jl to predict toxicity with a Bayesian neural network",
   },
@@ -60,8 +55,7 @@ export const CASE_STUDIES = [
     company: "Nasa",
     companyHelper: "Ecology",
     title: "Circuitscape",
-    image:
-      "https://juliahub.com/case-studies/CasestudyBanners/JuliaComp_casestudy_banners-38.jpg",
+    image: "images/case_studies/wolf-pack.jpg",
     paragraph:
       "Circuitscape.jl uses electrical circuit theory to model animal, plant and human migration patterns and their response to climate change",
   },

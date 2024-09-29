@@ -6,7 +6,7 @@ date: "17/12/2023"
 excerpt: "A  comprehensive guide to download julia computer language in a MacOS machine"
 ---
 
-#  MacOS Users
+# MacOS Users
 
 ## Julia Language Installation
 
@@ -35,8 +35,8 @@ Running Julia in terminal requires adding Julia Language to the PATH Environment
 2. Copy and paste the following two commands:
 
 ```bash
-rm -f /usr/local/bin/julia
-ln -s /Applications/Julia-1.8.app/Contents/Resources/julia/bin/julia /usr/local/bin/julia
+$ rm -f /usr/local/bin/julia
+$ ln -s /Applications/Julia-1.8.app/Contents/Resources/julia/bin/julia /usr/local/bin/julia
 ```
 
 > If your mac has an M-series processor, you may want to consider downloading both the Intel/Rosetta and the M-series releases of Julia. If you run into a package that doesn't work on your M-series processor, you can then switch to the Intel/Rosetta version.
