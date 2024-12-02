@@ -24,7 +24,7 @@ function Footer() {
         </FooterItem>
       </div>
       <p className="text-xs text-white">
-        &copy; {new Date().getFullYear()} Giannis Tsagkaropoulos. All rights
+        &copy; {new Date().getFullYear()} Ioannis Tsagkaropoulos. All rights
         reserved.
       </p>
     </section>
