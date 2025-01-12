@@ -1,7 +1,15 @@
 import FooterItem from "./FooterItem";
 import { LinkedIn, Github } from "../../icons/icons";
 
+import { useState, useEffect } from "react";
+
 function Footer() {
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
+
   return (
     <section className="flex-none text-center py-1 bg-julia-blue-dark  w-full bottom-0">
       <div className="flex flex-wrap justify-center gap-3 mb-2">
@@ -24,8 +32,7 @@ function Footer() {
         </FooterItem>
       </div>
       <p className="text-xs text-white">
-        &copy; {new Date().getFullYear()} Giannis Tsagkaropoulos. All rights
-        reserved.
+        &copy; {currentYear} Giannis Tsagkaropoulos. All rights reserved.
       </p>
     </section>
   );
