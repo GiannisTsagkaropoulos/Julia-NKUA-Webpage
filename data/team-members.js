@@ -4,7 +4,7 @@ export const TEAM_MEMBERS = [
     name: "Giannis Tsagkaropoulos",
     socialLink: "https://www.linkedin.com/in/ioannis-tsagkaropoulos-85a280233/",
     image: "images/faces/tsagkaropoulos.jpg",
-    status: "BSc in Mathematics",
+    status: "MSc in Computer Science",
   },
   {
     id: "Psitou",
@@ -40,6 +40,6 @@ export const TEAM_MEMBERS = [
     name: "Markos Theocharis Kremmydas",
     socialLink: "https://github.com/TheoMarkRe",
     image: "images/faces/markos.jpg",
-    status: "BSc in Mathematics",
+    status: "MSc in Mathematics",
   },
 ];
