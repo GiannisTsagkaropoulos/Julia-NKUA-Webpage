@@ -1,22 +1,14 @@
-import ReactMarkdown from "react-markdown";
-import Image from "next/image";
 import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
+
+import ReactMarkdown from "react-markdown";
+// import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
 import Head from "next/head";
 import React, { Fragment, useState } from "react";
-import {
-  coy,
-  base16AteliersulphurpoolLight,
-  coyWithoutShadows,
-  materialLight,
-  oneLight,
-} from "react-syntax-highlighter/dist/cjs/styles/prism";
-// import julia from "react-syntax-highlighter/dist/esm/languages/prism/julia";
-// import bash from "react-syntax-highlighter/dist/esm/languages/prism/bash";
+import { oneLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
+
 import js from "react-syntax-highlighter/dist/cjs/languages/prism/javascript";
 import css from "react-syntax-highlighter/dist/cjs/languages/prism/css";
 
-// SyntaxHighlighter.registerLanguage("bash", bash);
-// SyntaxHighlighter.registerLanguage("julia", julia);
 SyntaxHighlighter.registerLanguage("js", js);
 SyntaxHighlighter.registerLanguage("css", css);
 
