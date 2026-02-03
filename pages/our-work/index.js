@@ -20,7 +20,7 @@ export default function OurWork() {
         <section className="h-fit bg-purple-50">
           <div className="w-10/12 mx-auto flex flex-col items-center">
             <div className="h-12"></div>
-            <h3 className="w-11/12 text-xl lg:text-3xl lg:w-7/12 mx-auto tracking-wider font-medium text-justify lg:text-center ">
+            <h3 className="w-11/12 text-xl lg:text-3xl lg:w-7/12 mx-auto tracking-wider font-medium text-justify lg:text-center">
               <span className="text-julia-blue-light opacity-70">
                 Crafted for accessibility and engagement,{" "}
               </span>
@@ -43,6 +43,9 @@ export default function OurWork() {
             <div className="h-24"></div>
           </div>
           <CardGrid notebooks={NOTEBOOKS} />
+          <p className="w-10/12 mx-auto text-slate-600 py-10">
+          *Note: This is the educational status of creators of the notebooks, during the time of creation.
+          </p>
           <div className="h-24"></div>
           <PlutoThanks />
           <div className="h-24"></div>

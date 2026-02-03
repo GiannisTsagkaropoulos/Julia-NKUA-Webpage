@@ -51,7 +51,7 @@ export default function Card(props) {
                 {props.author.name}{" "}
               </h3>
               <p className="text-gray-400 text-center font-semibold text-md 2xl:text-lg">
-                {props.author.status}
+                {props.author.status}*
               </p>
             </div>
           </div>
