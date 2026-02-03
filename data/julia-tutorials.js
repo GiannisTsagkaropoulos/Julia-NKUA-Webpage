@@ -3,7 +3,7 @@ export const TUTORIALS = [
     id: "tutorial1",
     link: "https://juliaacademy.com/p/intro-to-julia",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/fbQNAgyQJaesFcu3N3Mf",
+      "https://static-media.hotmart.com/qwRh06eiPcy3sAIqXXqTSEu2Vcc=/705x0/https://uploads.teachablecdn.com/attachments/P9zQ1TqQGhnVtyxn4Wgb_Julia.png",
     title: "Introduction to Julia (for programmers)",
     content: "Learn the language basics in this 10-part course.",
     tags: [
@@ -16,7 +16,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://www.filepicker.io/api/file/yEXIharKREGSUe3uiVDv",
+        "https://static-media.hotmart.com/7nKDEx4UBC_Em-NbyELNJIWeAlk=/0x0/https://uploads.teachablecdn.com/attachments/iAAxYkevRo6t7zL8S9Qv_jane.jpg",
       name: "Dr. Jane Herriman",
     },
   },
@@ -24,7 +24,7 @@ export const TUTORIALS = [
     id: "tutorial2",
     link: "https://juliaacademy.com/p/julia-for-data-science",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/ff08re1NS4W1QA831tjP",
+      "https://static-media.hotmart.com/TIfIZZ_85cslGOB7Rzd45VtZJi4=/705x0/https://uploads.teachablecdn.com/attachments/zNsibS3yQBuyHdxAoB42_datascience1.png",
     title: "Julia for Data Science",
     content: "Data, Methods, and Visualizations for Data Science in Julia",
     tags: [
@@ -43,7 +43,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://www.filepicker.io/api/file/RydaHlO0TDCBjw6EijcR",
+        "https://static-media.hotmart.com/cXz-oRsOkhdP-rqNWK79Cf0CA7Q=/0x0/https://uploads.teachablecdn.com/attachments/KkO17gvTgGFsoEPhkxAg_huda_664-org-ogok0scsaj7gcdriyf0eyo6c6exczzsw9s25506jzs.jpg",
       name: "Dr. Huda Nassar",
     },
   },
@@ -51,7 +51,7 @@ export const TUTORIALS = [
     id: "tutorial3",
     link: "https://juliaacademy.com/p/julia-programming-for-nervous-beginners",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/LwRTmisRvOPKWXQ8PzeQ",
+      "https://static-media.hotmart.com/mORpTg9MVMIwgjPG78HBGVRP9gQ=/705x0/https://uploads.teachablecdn.com/attachments/HAQC5TIXT4idwf4gK0cN_Copy+of+Nervous+Beginners.png",
     title: "Julia Programming for Nervous Beginners",
     content:
       "A course for people who are hesitant but curious about learning to write code in Julia.",
@@ -65,7 +65,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://cdn.filestackcontent.com/FKAAvAKKRNmNJ79l5bgL",
+        "https://static-media.hotmart.com/dApAT2LFPMHX-3MjI-cgPdlMXA8=/0x0/https://uploads.teachablecdn.com/attachments/jwAAglATQeLmFaNvLYWy_unnamed.jpg",
       name: "Dr. Henri Laurie",
     },
   },
@@ -73,7 +73,7 @@ export const TUTORIALS = [
     id: "tutorial4",
     link: "https://juliaacademy.com/p/computational-modeling-in-julia-with-applications-to-the-covid-19-pandemic",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/P2NE49ykQGWVgF1gWel9",
+      "https://static-media.hotmart.com/cMym1CENjzZzEoWejhLQvfg5euo=/705x0/https://uploads.teachablecdn.com/attachments/MNygwlGHRq2rCktC9hsR_juliamodellingiconandtitle.png",
     title:
       "Computational Modeling in Julia with Applications to the COVID-19 Pandemic",
     content:
@@ -96,7 +96,7 @@ export const TUTORIALS = [
     id: "tutorial5",
     link: "https://juliaacademy.com/p/getting-started-with-juliaacademy",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Yqe4nE9GTyiZLDg5PlhD",
+      "https://static-media.hotmart.com/dsXUjEI2d1X1lKkT8bX73oucJtk=/705x0/https://uploads.teachablecdn.com/attachments/9laf7BkGQVyJDRvJks47_JA.png",
     title: "Getting Started With JuliaAcademy",
     content: "Install Julia and get started learning!",
     tags: [
@@ -109,7 +109,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://www.filepicker.io/api/file/kfR6uj18RVK1YbTAvy8V",
+        "https://static-media.hotmart.com/soDmW4K57fpDinxTm6w1CmfccuE=/0x0/https://uploads.teachablecdn.com/attachments/erzEzm1FQZGrwBMHI2jJ_New+Headshot+500x500.jpg",
       name: "Logan Kilpatrick",
     },
   },
@@ -117,7 +117,7 @@ export const TUTORIALS = [
     id: "tutorial6",
     link: "https://juliaacademy.com/p/introduction-to-machine-learning",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/HlaXt304S4qxAkyVJSgS",
+      "https://static-media.hotmart.com/vc-xWMsI0D6Q349K7-fkuUCQ2n0=/705x0/https://uploads.teachablecdn.com/attachments/2kAHb29WQBSBMRDxOqYA_learns.png",
     title: "Foundations of Machine Learning",
     content:
       "We're excited to be your gateway into machine learning. ML is a rapidly growing field that's buzzing with opportunity.",
@@ -131,7 +131,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://www.filepicker.io/api/file/g1b938tbS1SnncZCeVyn",
+        "https://static-media.hotmart.com/VcJgzgjOByWqOm6fmZ0f5f_LeSY=/0x0/https://uploads.teachablecdn.com/attachments/GbxzCIXRTPO40SJhmeHs_1814174",
       name: "Dr. Chris Rackauckas",
     },
   },
@@ -139,7 +139,7 @@ export const TUTORIALS = [
     id: "tutorial7",
     link: "https://juliaacademy.com/p/introduction-to-dataframes-jl1",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/CKEzZhwSxOcKVseJRLdA",
+      "https://static-media.hotmart.com/gvYpHAhHXTgmhP6kAeOCknImlPA=/848x478/https://uploads.teachablecdn.com/attachments/4b0bRAHqQvqkBWOHfnSY_logo.png",
     title: "Introduction to DataFrames.jl (v1.1.1)",
     content:
       "In-memory tabular data in Julia: http://juliadata.github.io/DataFrames.jl/stable/",
@@ -159,7 +159,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://www.filepicker.io/api/file/616prhQaTLVJiC2xMj7R",
+        "https://static-media.hotmart.com/Pa0kbtK-td_r9_hKle-auoYNLQw=/0x0/https://uploads.teachablecdn.com/attachments/JuwMirkLSJuKqSUsdA7J_0.jpeg",
       name: "Bogumił Kamiński",
     },
   },
@@ -167,7 +167,7 @@ export const TUTORIALS = [
     id: "tutorial8",
     link: "https://juliaacademy.com/p/deep-learning-with-flux-jl",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/YcqSn4mMQzyYj7JP8SAO",
+      "https://static-media.hotmart.com/ncJ54eqrMM5P45SLYT-lE96020M=/848x478/https://uploads.teachablecdn.com/attachments/qUVlxDqBTh63Y4hHsvD8_fluxlogo_1545922556234.png",
     title: "Deep Learning with Flux.jl",
     content: "",
     tags: [
@@ -180,7 +180,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://www.filepicker.io/api/file/LRzL5EfASli7ZQP9zcyJ",
+        "https://static-media.hotmart.com/TiMETmgcwNzO1KlG1GvwSgI5XxE=/0x0/https://uploads.teachablecdn.com/attachments/icPxb7swQ2eIUWmVwdSv_profilepic.jpg",
       name: "Dr. Matt Bauman",
     },
   },
@@ -188,7 +188,7 @@ export const TUTORIALS = [
     id: "tutorial9",
     link: "https://juliaacademy.com/p/parallel-computing",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/FciVdAV1SxiS5OkmRnxs",
+      "https://static-media.hotmart.com/u8J54gj5WDRjzuo1iZr8tbEggdE=/848x478/https://uploads.teachablecdn.com/attachments/Dguw4B0cRUagdrTKM01m_U.S._Department_of_Energy_-_Science_-_477_026_010_%2823445286566%29.png",
     title: "Parallel Computing",
     content: "",
     tags: [
@@ -201,7 +201,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://www.filepicker.io/api/file/LRzL5EfASli7ZQP9zcyJ",
+        "https://static-media.hotmart.com/TiMETmgcwNzO1KlG1GvwSgI5XxE=/0x0/https://uploads.teachablecdn.com/attachments/icPxb7swQ2eIUWmVwdSv_profilepic.jpg",
       name: "Dr. Matt Bauman",
     },
   },
@@ -209,7 +209,7 @@ export const TUTORIALS = [
     id: "tutorial10",
     link: "https://juliaacademy.com/p/the-world-of-machine-learning-with-knet",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/PyTPw3VS3qPPhTobwadQ",
+      "https://static-media.hotmart.com/RZsSHqMijrfLWpH-WYgspHAkyG4=/848x478/https://uploads.teachablecdn.com/attachments/EBp5rwjUTri7MRYPW0cH_image_1545300847647.png",
     title: "The world of Machine Learning with Knet",
     content: "",
     tags: [
@@ -222,7 +222,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://www.filepicker.io/api/file/9TzdHvPLSsCWGFBZcrq1",
+        "https://static-media.hotmart.com/tbfNJrsReJh-YoT0DfDseojApPw=/0x0/https://uploads.teachablecdn.com/attachments/opPDzccZSzSfvDwHnl3U_dyuret.jpg",
       name: "Dr. Deniz Yuret",
     },
   },
@@ -230,7 +230,7 @@ export const TUTORIALS = [
     id: "tutorial11",
     link: "https://juliaacademy.com/p/decision-making-under-uncertainty-with-pomdps-jl",
     thumbnail:
-      "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/cZcgT9S1TcCKkyyaGxz1",
+      "https://static-media.hotmart.com/Q8kh7Go67uJEEtYlRpcG-gazFqE=/848x478/https://uploads.teachablecdn.com/attachments/sqLNlxpQKyvD0FXb5pM1_cover.png",
     title: "Decision Making Under Uncertainty with POMDPs.jl",
     content:
       "How to build and solve decision making problems using the POMDPs.jl ecosystem of packages",
@@ -250,7 +250,7 @@ export const TUTORIALS = [
     ],
     author: {
       image:
-        "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://cdn.filestackcontent.com/PYlNBgSAQ6N4BYlKzk4z",
+        "https://static-media.hotmart.com/tf1IhuUOg5GeimtDaEYIfuM0_z8=/0x0/https://uploads.teachablecdn.com/attachments/WVw21AZfSpa1MjihfXk8_robert-moss-stanford.jpg",
       name: "Robert Moss",
     },
   },
